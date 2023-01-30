@@ -1,0 +1,18 @@
+E:\Github\ProjectYJ\ProjectYJ\Intermediate\Build\Win64\UE4Editor\Development\ProjectYJ\Definitions.ProjectYJ.h
+D:\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+D:\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+E:\Github\ProjectYJ\ProjectYJ\Source\ProjectYJ/System/AssetManager/CustomAssetManager.h
+D:\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/AssetManager.h
+D:\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine\AssetManagerTypes.h
+D:\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AssetManagerTypes.generated.h
+D:\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\Misc/AssetRegistryInterface.h
+D:\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine\StreamableManager.h
+D:\Epic Games\UE_4.27\Engine\Source\Runtime\AssetRegistry\Public\AssetRegistryModule.h
+D:\Epic Games\UE_4.27\Engine\Source\Runtime\AssetRegistry\Public\AssetRegistry/AssetRegistryModule.h
+D:\Epic Games\UE_4.27\Engine\Source\Runtime\AssetRegistry\Public\AssetRegistry/IAssetRegistry.h
+D:\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\AssetRegistry/ARFilter.h
+D:\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AssetRegistry\IAssetRegistry.generated.h
+D:\Epic Games\UE_4.27\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatformChunkInstall.h
+D:\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine\ContentEncryptionConfig.h
+D:\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AssetManager.generated.h
+E:\Github\ProjectYJ\ProjectYJ\Intermediate\Build\Win64\UE4Editor\Inc\ProjectYJ\CustomAssetManager.generated.h

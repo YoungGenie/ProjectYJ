@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\ProjectYJ.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{4D185269-D6E1-4F57-A0AD-F1F4021EB6B1}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ProjectYJ.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\ProjectYJEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Scanned3DPeoplePack.png" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{7394D77F-FD46-4FAD-AB14-47773025890C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\ProjectYJ">
+      <UniqueIdentifier>{D142A0CB-5592-48FC-BCBF-9C7E62F558C1}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ProjectYJ\ProjectYJ.Build.cs">
+      <Filter>Source\ProjectYJ</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\ProjectYJ\ProjectYJ.cpp">
+      <Filter>Source\ProjectYJ</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectYJ\ProjectYJ.h">
+      <Filter>Source\ProjectYJ</Filter>
+    </ClInclude>
+    <Filter Include="Source\ProjectYJ\Actor">
+      <UniqueIdentifier>{89CFA088-36ED-4DA5-94F6-9C8F6D7F3B81}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ProjectYJ\Actor\ProjectYJCharacter.cpp">
+      <Filter>Source\ProjectYJ\Actor</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectYJ\Actor\ProjectYJCharacter.h">
+      <Filter>Source\ProjectYJ\Actor</Filter>
+    </ClInclude>
+    <Filter Include="Source\ProjectYJ\Framework">
+      <UniqueIdentifier>{DDD0BFF7-B682-4C46-A7AB-169C378A6967}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ProjectYJ\Framework\GameMode">
+      <UniqueIdentifier>{2243710D-E716-46A6-8F46-FD62AC555B95}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ProjectYJ\Framework\GameMode\ProjectYJGameMode.cpp">
+      <Filter>Source\ProjectYJ\Framework\GameMode</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectYJ\Framework\GameMode\ProjectYJGameMode.h">
+      <Filter>Source\ProjectYJ\Framework\GameMode</Filter>
+    </ClInclude>
+    <Filter Include="Source\ProjectYJ\Framework\Viewport">
+      <UniqueIdentifier>{E8BCF461-2BC9-4DE6-8BD4-3C35C64B5F12}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ProjectYJ\Framework\Viewport\CustomGameViewportClient.cpp">
+      <Filter>Source\ProjectYJ\Framework\Viewport</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectYJ\Framework\Viewport\CustomGameViewportClient.h">
+      <Filter>Source\ProjectYJ\Framework\Viewport</Filter>
+    </ClInclude>
+    <Filter Include="Source\ProjectYJ\System">
+      <UniqueIdentifier>{B2760FBC-C63C-4B59-90AF-8216A54863F3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ProjectYJ\System\AssetManager">
+      <UniqueIdentifier>{4FF6D04C-74AB-4697-B518-8909C42E0257}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ProjectYJ\System\AssetManager\CustomAssetManager.cpp">
+      <Filter>Source\ProjectYJ\System\AssetManager</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectYJ\System\AssetManager\CustomAssetManager.h">
+      <Filter>Source\ProjectYJ\System\AssetManager</Filter>
+    </ClInclude>
+    <Filter Include="Source\ProjectYJ\System\SignificanceManager">
+      <UniqueIdentifier>{10C3048D-6C30-48A3-8DDB-82D59FBE38FE}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ProjectYJ\System\SignificanceManager\CustomSignificanceManager.cpp">
+      <Filter>Source\ProjectYJ\System\SignificanceManager</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectYJ\System\SignificanceManager\CustomSignificanceManager.h">
+      <Filter>Source\ProjectYJ\System\SignificanceManager</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectYJ\System\SignificanceManager\SignificanceManagerSetting.cpp">
+      <Filter>Source\ProjectYJ\System\SignificanceManager</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectYJ\System\SignificanceManager\SignificanceManagerSetting.h">
+      <Filter>Source\ProjectYJ\System\SignificanceManager</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

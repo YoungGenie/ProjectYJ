@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "ProjectYJ",
+			"Path": "E:\\Github\\ProjectYJ\\ProjectYJ\\Source\\ProjectYJ.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "ProjectYJEditor",
+			"Path": "E:\\Github\\ProjectYJ\\ProjectYJ\\Source\\ProjectYJEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

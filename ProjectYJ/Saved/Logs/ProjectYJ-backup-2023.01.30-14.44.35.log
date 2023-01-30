@@ -1,0 +1,1127 @@
+﻿Log file open, 01/30/23 23:42:42
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: ProjectYJ
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.404501
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
+LogInit: Display: Loading text-based GConfig....
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin XGEController
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin EnvironmentQueryEditor
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin LiveLink
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin GameplayCameras
+LogPluginManager: Mounting plugin OodleData
+LogPluginManager: Mounting plugin OodleNetwork
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PixWinPlugin
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin PluginUtils
+LogPluginManager: Mounting plugin PropertyAccessNode
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin TextureFormatOodle
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin LuminPlatformFeatures
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin MotoSynth
+LogPluginManager: Mounting plugin OpenImageDenoise
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin PythonScriptPlugin
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioSynesthesia
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin ChunkDownloader
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin OpenXR
+LogPluginManager: Mounting plugin OpenXRHandTracking
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin PropertyAccessEditor
+LogPluginManager: Mounting plugin OpenXREyeTracker
+LogPluginManager: Mounting plugin ScreenshotTools
+LogPluginManager: Mounting plugin Takes
+LogPluginManager: Mounting plugin ContentBrowserAssetDataSource
+LogPluginManager: Mounting plugin ContentBrowserClassDataSource
+LogPluginManager: Mounting plugin ContentBrowserFileDataSource
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin SteamVR
+PixWinPlugin: PIX capture plugin failed to initialize! Check that the process is launched from PIX.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogOculusPluginWrapper: OculusPlugin initialized successfully
+LogHMD: Failed initializing OVRPlugin 1.59.0
+LogInit: Build: ++UE4+Release-4.27-CL-18319896
+LogInit: Engine Version: 4.27.2-18319896+++UE4+Release-4.27
+LogInit: Compatible Engine Version: 4.27.0-17155196+++UE4+Release-4.27
+LogInit: Net CL: 17155196
+LogInit: OS: Windows 10 (Release 2009) (), CPU: Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz, GPU: NVIDIA GeForce RTX 3060 Ti
+LogInit: Compiled (64-bit): Nov 30 2021 07:12:08
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.27
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: D:/Epic Games/UE_4.27/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 29
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 14
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 45
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 13
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 47
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 1
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 41
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [E:/Github/ProjectYJ/ProjectYJ/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2023.01.30-14.42.43:929][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2023.01.30-14.42.43:929][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2023.01.30-14.42.43:929][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [E:/Github/ProjectYJ/ProjectYJ/Saved/Config/Windows/Engine.ini]
+[2023.01.30-14.42.43:929][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2023.01.30-14.42.43:929][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [E:/Github/ProjectYJ/ProjectYJ/Saved/Config/Windows/Engine.ini]
+[2023.01.30-14.42.43:929][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [E:/Github/ProjectYJ/ProjectYJ/Saved/Config/Windows/Engine.ini]
+[2023.01.30-14.42.43:929][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2023.01.30-14.42.43:929][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2023.01.30-14.42.43:929][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2023.01.30-14.42.43:929][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2023.01.30-14.42.43:929][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2023.01.30-14.42.43:929][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2023.01.30-14.42.43:929][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2023.01.30-14.42.43:929][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2023.01.30-14.42.43:929][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2023.01.30-14.42.43:930][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2023.01.30-14.42.43:930][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2023.01.30-14.42.43:930][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2023.01.30-14.42.43:930][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2023.01.30-14.42.43:930][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2023.01.30-14.42.43:930][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [E:/Github/ProjectYJ/ProjectYJ/Saved/Config/Windows/Engine.ini]
+[2023.01.30-14.42.43:930][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2023.01.30-14.42.43:930][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2023.01.30-14.42.43:930][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2023.01.30-14.42.43:930][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2023.01.30-14.42.43:930][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2023.01.30-14.42.43:930][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2023.01.30-14.42.43:930][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2023.01.30-14.42.43:930][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2023.01.30-14.42.43:930][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2023.01.30-14.42.43:930][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2023.01.30-14.42.43:930][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2023.01.30-14.42.43:930][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2023.01.30-14.42.43:930][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2023.01.30-14.42.43:931][  0]LogConfig: Setting CVar [[gc.MultithreadedDestructionEnabled:1]]
+[2023.01.30-14.42.43:931][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [E:/Github/ProjectYJ/ProjectYJ/Saved/Config/Windows/Engine.ini]
+[2023.01.30-14.42.43:931][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [E:/Github/ProjectYJ/ProjectYJ/Saved/Config/Windows/Engine.ini]
+[2023.01.30-14.42.43:976][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/Github/ProjectYJ/ProjectYJ/Saved/Config/Windows/Scalability.ini]
+[2023.01.30-14.42.43:976][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2023.01.30-14.42.43:976][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2023.01.30-14.42.43:976][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/Github/ProjectYJ/ProjectYJ/Saved/Config/Windows/Scalability.ini]
+[2023.01.30-14.42.43:976][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2023.01.30-14.42.43:976][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/Github/ProjectYJ/ProjectYJ/Saved/Config/Windows/Scalability.ini]
+[2023.01.30-14.42.43:976][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2023.01.30-14.42.43:976][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2023.01.30-14.42.43:977][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2023.01.30-14.42.43:977][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2023.01.30-14.42.43:977][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2023.01.30-14.42.43:977][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2023.01.30-14.42.43:977][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2023.01.30-14.42.43:977][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2023.01.30-14.42.43:977][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2023.01.30-14.42.43:977][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2023.01.30-14.42.43:977][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2023.01.30-14.42.43:977][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2023.01.30-14.42.43:977][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2023.01.30-14.42.43:977][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2023.01.30-14.42.43:977][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2023.01.30-14.42.43:977][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2023.01.30-14.42.43:977][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2023.01.30-14.42.43:977][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2023.01.30-14.42.43:977][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/Github/ProjectYJ/ProjectYJ/Saved/Config/Windows/Scalability.ini]
+[2023.01.30-14.42.43:977][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2023.01.30-14.42.43:977][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2023.01.30-14.42.43:977][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2023.01.30-14.42.43:978][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2023.01.30-14.42.43:978][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2023.01.30-14.42.43:978][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2023.01.30-14.42.43:978][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2023.01.30-14.42.43:978][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2023.01.30-14.42.43:978][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2023.01.30-14.42.43:978][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2023.01.30-14.42.43:978][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2023.01.30-14.42.43:978][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2023.01.30-14.42.43:978][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2023.01.30-14.42.43:978][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2023.01.30-14.42.43:978][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2023.01.30-14.42.43:978][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2023.01.30-14.42.43:978][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2023.01.30-14.42.43:978][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2023.01.30-14.42.43:978][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2023.01.30-14.42.43:978][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2023.01.30-14.42.43:978][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2023.01.30-14.42.43:978][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2023.01.30-14.42.43:978][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2023.01.30-14.42.43:979][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2023.01.30-14.42.43:979][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2023.01.30-14.42.43:979][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2023.01.30-14.42.43:979][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2023.01.30-14.42.43:979][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2023.01.30-14.42.43:979][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2023.01.30-14.42.43:979][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2023.01.30-14.42.43:979][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/Github/ProjectYJ/ProjectYJ/Saved/Config/Windows/Scalability.ini]
+[2023.01.30-14.42.43:979][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2023.01.30-14.42.43:979][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2023.01.30-14.42.43:979][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2023.01.30-14.42.43:979][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2023.01.30-14.42.43:979][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2023.01.30-14.42.43:979][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2023.01.30-14.42.43:979][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2023.01.30-14.42.43:979][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2023.01.30-14.42.43:979][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2023.01.30-14.42.43:979][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/Github/ProjectYJ/ProjectYJ/Saved/Config/Windows/Scalability.ini]
+[2023.01.30-14.42.43:979][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2023.01.30-14.42.43:980][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2023.01.30-14.42.43:980][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2023.01.30-14.42.43:980][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2023.01.30-14.42.43:980][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2023.01.30-14.42.43:980][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2023.01.30-14.42.43:980][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2023.01.30-14.42.43:980][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2023.01.30-14.42.43:980][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2023.01.30-14.42.43:980][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2023.01.30-14.42.43:980][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2023.01.30-14.42.43:980][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2023.01.30-14.42.43:980][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2023.01.30-14.42.43:980][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2023.01.30-14.42.43:980][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2023.01.30-14.42.43:980][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2023.01.30-14.42.43:980][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2023.01.30-14.42.43:980][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2023.01.30-14.42.43:980][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2023.01.30-14.42.43:980][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2023.01.30-14.42.43:980][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2023.01.30-14.42.43:980][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2023.01.30-14.42.43:981][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2023.01.30-14.42.43:981][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2023.01.30-14.42.43:981][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2023.01.30-14.42.43:981][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2023.01.30-14.42.43:981][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2023.01.30-14.42.43:981][  0]LogConfig: Setting CVar [[r.SkyLight.RealTimeReflectionCapture:1]]
+[2023.01.30-14.42.43:981][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/Github/ProjectYJ/ProjectYJ/Saved/Config/Windows/Scalability.ini]
+[2023.01.30-14.42.43:981][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2023.01.30-14.42.43:981][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2023.01.30-14.42.43:981][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [E:/Github/ProjectYJ/ProjectYJ/Saved/Config/Windows/Scalability.ini]
+[2023.01.30-14.42.43:981][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2023.01.30-14.42.43:981][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2023.01.30-14.42.43:981][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2023.01.30-14.42.43:981][  0]LogInit: Selected Device Profile: [Windows]
+[2023.01.30-14.42.43:981][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2023.01.30-14.42.43:981][  0]LogHAL: Display: Platform has ~ 16 GB [17102561280 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2023.01.30-14.42.43:981][  0]LogInit: Going up to parent DeviceProfile []
+[2023.01.30-14.42.43:982][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/Github/ProjectYJ/ProjectYJ/Saved/Config/Windows/Scalability.ini]
+[2023.01.30-14.42.43:982][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2023.01.30-14.42.43:982][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2023.01.30-14.42.43:982][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/Github/ProjectYJ/ProjectYJ/Saved/Config/Windows/Scalability.ini]
+[2023.01.30-14.42.43:982][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2023.01.30-14.42.43:982][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/Github/ProjectYJ/ProjectYJ/Saved/Config/Windows/Scalability.ini]
+[2023.01.30-14.42.43:982][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2023.01.30-14.42.43:982][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2023.01.30-14.42.43:982][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2023.01.30-14.42.43:982][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2023.01.30-14.42.43:982][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2023.01.30-14.42.43:982][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2023.01.30-14.42.43:982][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2023.01.30-14.42.43:982][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2023.01.30-14.42.43:982][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2023.01.30-14.42.43:982][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2023.01.30-14.42.43:982][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2023.01.30-14.42.43:982][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2023.01.30-14.42.43:982][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2023.01.30-14.42.43:982][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2023.01.30-14.42.43:983][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2023.01.30-14.42.43:983][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2023.01.30-14.42.43:983][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2023.01.30-14.42.43:983][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2023.01.30-14.42.43:983][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/Github/ProjectYJ/ProjectYJ/Saved/Config/Windows/Scalability.ini]
+[2023.01.30-14.42.43:983][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2023.01.30-14.42.43:983][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2023.01.30-14.42.43:983][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2023.01.30-14.42.43:983][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2023.01.30-14.42.43:983][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2023.01.30-14.42.43:983][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2023.01.30-14.42.43:983][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2023.01.30-14.42.43:983][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2023.01.30-14.42.43:983][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2023.01.30-14.42.43:983][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2023.01.30-14.42.43:983][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2023.01.30-14.42.43:983][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2023.01.30-14.42.43:983][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2023.01.30-14.42.43:983][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2023.01.30-14.42.43:983][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2023.01.30-14.42.43:984][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2023.01.30-14.42.43:984][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2023.01.30-14.42.43:984][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2023.01.30-14.42.43:984][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2023.01.30-14.42.43:984][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2023.01.30-14.42.43:984][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2023.01.30-14.42.43:984][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2023.01.30-14.42.43:984][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2023.01.30-14.42.43:984][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2023.01.30-14.42.43:984][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2023.01.30-14.42.43:984][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2023.01.30-14.42.43:984][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2023.01.30-14.42.43:984][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2023.01.30-14.42.43:984][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2023.01.30-14.42.43:984][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2023.01.30-14.42.43:984][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/Github/ProjectYJ/ProjectYJ/Saved/Config/Windows/Scalability.ini]
+[2023.01.30-14.42.43:984][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2023.01.30-14.42.43:984][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2023.01.30-14.42.43:984][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2023.01.30-14.42.43:984][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2023.01.30-14.42.43:984][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2023.01.30-14.42.43:985][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2023.01.30-14.42.43:985][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2023.01.30-14.42.43:985][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2023.01.30-14.42.43:985][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2023.01.30-14.42.43:985][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/Github/ProjectYJ/ProjectYJ/Saved/Config/Windows/Scalability.ini]
+[2023.01.30-14.42.43:985][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2023.01.30-14.42.43:985][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2023.01.30-14.42.43:985][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2023.01.30-14.42.43:985][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2023.01.30-14.42.43:985][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2023.01.30-14.42.43:985][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2023.01.30-14.42.43:985][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2023.01.30-14.42.43:985][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2023.01.30-14.42.43:985][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2023.01.30-14.42.43:985][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2023.01.30-14.42.43:985][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2023.01.30-14.42.43:985][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2023.01.30-14.42.43:985][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2023.01.30-14.42.43:985][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2023.01.30-14.42.43:985][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2023.01.30-14.42.43:985][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2023.01.30-14.42.43:986][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2023.01.30-14.42.43:986][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2023.01.30-14.42.43:986][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2023.01.30-14.42.43:986][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2023.01.30-14.42.43:986][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2023.01.30-14.42.43:986][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2023.01.30-14.42.43:986][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2023.01.30-14.42.43:986][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2023.01.30-14.42.43:986][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2023.01.30-14.42.43:986][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2023.01.30-14.42.43:986][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2023.01.30-14.42.43:986][  0]LogConfig: Setting CVar [[r.SkyLight.RealTimeReflectionCapture:1]]
+[2023.01.30-14.42.43:986][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/Github/ProjectYJ/ProjectYJ/Saved/Config/Windows/Scalability.ini]
+[2023.01.30-14.42.43:986][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2023.01.30-14.42.43:986][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2023.01.30-14.42.43:986][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [E:/Github/ProjectYJ/ProjectYJ/Saved/Config/Windows/Scalability.ini]
+[2023.01.30-14.42.43:986][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2023.01.30-14.42.43:986][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2023.01.30-14.42.43:986][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2023.01.30-14.42.43:986][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2023.01.30-14.42.43:987][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2023.01.30-14.42.43:987][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2023.01.30-14.42.43:987][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2023.01.30-14.42.43:987][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [E:/Github/ProjectYJ/ProjectYJ/Saved/Config/Windows/Engine.ini]
+[2023.01.30-14.42.43:987][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [E:/Github/ProjectYJ/ProjectYJ/Saved/Config/Windows/Editor.ini]
+[2023.01.30-14.42.43:987][  0]LogInit: Computer: DESKTOP-YJ
+[2023.01.30-14.42.43:987][  0]LogInit: User: YJ
+[2023.01.30-14.42.43:987][  0]LogInit: CPU Page size=4096, Cores=6
+[2023.01.30-14.42.43:987][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2023.01.30-14.42.43:987][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2023.01.30-14.42.43:987][  0]LogMemory: Platform Memory Stats for Windows
+[2023.01.30-14.42.43:987][  0]LogMemory: Process Physical Memory: 145.45 MB used, 145.46 MB peak
+[2023.01.30-14.42.43:988][  0]LogMemory: Process Virtual Memory: 125.77 MB used, 125.77 MB peak
+[2023.01.30-14.42.43:988][  0]LogMemory: Physical Memory: 8120.66 MB used,  8189.61 MB free, 16310.27 MB total
+[2023.01.30-14.42.43:988][  0]LogMemory: Virtual Memory: 134195120.00 MB used,  22610.48 MB free, 134217728.00 MB total
+[2023.01.30-14.42.44:004][  0]LogWindows: WindowsPlatformFeatures enabled
+[2023.01.30-14.42.44:256][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2023.01.30-14.42.44:260][  0]LogInit: Overriding language with editor language configuration option (en).
+[2023.01.30-14.42.44:260][  0]LogInit: Using OS detected locale (ko-KR).
+[2023.01.30-14.42.44:532][  0]LogInit: Setting process to per monitor DPI aware
+[2023.01.30-14.42.44:595][  0]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2023.01.30-14.42.44:618][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2023.01.30-14.42.44:618][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2023.01.30-14.42.44:976][  0]LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+[2023.01.30-14.42.44:983][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2023.01.30-14.42.44:983][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2023.01.30-14.42.44:983][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2023.01.30-14.42.44:983][  0]LogD3D11RHI: D3D11 adapters:
+[2023.01.30-14.42.45:194][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 3060 Ti' (Feature Level 11_0)
+[2023.01.30-14.42.45:194][  0]LogD3D11RHI:       8050/0/8155 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2023.01.30-14.42.45:202][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2023.01.30-14.42.45:202][  0]LogD3D11RHI:       0/0/8155 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2023.01.30-14.42.45:203][  0]LogD3D11RHI: Chosen D3D11 Adapter:
+[2023.01.30-14.42.45:203][  0]LogD3D11RHI:     Description : NVIDIA GeForce RTX 3060 Ti
+[2023.01.30-14.42.45:203][  0]LogD3D11RHI:     VendorId    : 10de
+[2023.01.30-14.42.45:203][  0]LogD3D11RHI:     DeviceId    : 2486
+[2023.01.30-14.42.45:203][  0]LogD3D11RHI:     SubSysId    : 248610de
+[2023.01.30-14.42.45:203][  0]LogD3D11RHI:     Revision    : 00a1
+[2023.01.30-14.42.45:203][  0]LogD3D11RHI:     DedicatedVideoMemory : 8441036800 bytes
+[2023.01.30-14.42.45:203][  0]LogD3D11RHI:     DedicatedSystemMemory : 0 bytes
+[2023.01.30-14.42.45:203][  0]LogD3D11RHI:     SharedSystemMemory : 8551280640 bytes
+[2023.01.30-14.42.45:203][  0]LogD3D11RHI:     AdapterLuid : 0 53873
+[2023.01.30-14.42.45:209][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2023.01.30-14.42.45:209][  0]LogD3D11RHI:     GPU DeviceId: 0x2486 (for the marketing name, search the web for "GPU Device Id")
+[2023.01.30-14.42.45:209][  0]LogWindows: EnumDisplayDevices:
+[2023.01.30-14.42.45:209][  0]LogWindows:    0. 'NVIDIA GeForce RTX 3060 Ti' (P:1 D:1)
+[2023.01.30-14.42.45:211][  0]LogWindows:    1. 'NVIDIA GeForce RTX 3060 Ti' (P:0 D:0)
+[2023.01.30-14.42.45:212][  0]LogWindows:    2. 'NVIDIA GeForce RTX 3060 Ti' (P:0 D:0)
+[2023.01.30-14.42.45:212][  0]LogWindows:    3. 'NVIDIA GeForce RTX 3060 Ti' (P:0 D:0)
+[2023.01.30-14.42.45:213][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2023.01.30-14.42.45:213][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 3060 Ti
+[2023.01.30-14.42.45:213][  0]LogD3D11RHI:   Driver Version: 516.94 (internal:31.0.15.1694, unified:516.94)
+[2023.01.30-14.42.45:214][  0]LogD3D11RHI:      Driver Date: 7-21-2022
+[2023.01.30-14.42.45:214][  0]LogRHI: Texture pool is 5635 MB (70% of 8050 MB)
+[2023.01.30-14.42.45:214][  0]LogD3D11RHI: Creating D3DDevice using adapter:
+[2023.01.30-14.42.45:214][  0]LogD3D11RHI:     Description : NVIDIA GeForce RTX 3060 Ti
+[2023.01.30-14.42.45:214][  0]LogD3D11RHI:     VendorId    : 10de
+[2023.01.30-14.42.45:214][  0]LogD3D11RHI:     DeviceId    : 2486
+[2023.01.30-14.42.45:214][  0]LogD3D11RHI:     SubSysId    : 248610de
+[2023.01.30-14.42.45:214][  0]LogD3D11RHI:     Revision    : 00a1
+[2023.01.30-14.42.45:214][  0]LogD3D11RHI:     DedicatedVideoMemory : 8441036800 bytes
+[2023.01.30-14.42.45:214][  0]LogD3D11RHI:     DedicatedSystemMemory : 0 bytes
+[2023.01.30-14.42.45:214][  0]LogD3D11RHI:     SharedSystemMemory : 8551280640 bytes
+[2023.01.30-14.42.45:214][  0]LogD3D11RHI:     AdapterLuid : 0 53873
+[2023.01.30-14.42.45:288][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2023.01.30-14.42.45:288][  0]LogD3D11RHI: Async texture creation enabled
+[2023.01.30-14.42.45:288][  0]LogD3D11RHI: Array index from any shader is supported
+[2023.01.30-14.42.45:292][  0]LogD3D11RHI: HDR output is supported on display 0 (NvId: 0x80061082).
+[2023.01.30-14.42.45:305][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2023.01.30-14.42.45:416][  0]LogRHI: GeForceNow SDK initialized: 1
+[2023.01.30-14.42.45:807][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2023.01.30-14.42.45:831][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2023.01.30-14.42.45:831][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2023.01.30-14.42.45:831][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2023.01.30-14.42.45:831][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2023.01.30-14.42.45:831][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2023.01.30-14.42.45:831][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2023.01.30-14.42.45:831][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2023.01.30-14.42.45:831][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2023.01.30-14.42.45:831][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2023.01.30-14.42.45:831][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2023.01.30-14.42.45:862][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2023.01.30-14.42.45:862][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2023.01.30-14.42.45:875][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2023.01.30-14.42.45:883][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2023.01.30-14.42.45:891][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2023.01.30-14.42.45:900][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2023.01.30-14.42.45:912][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2023.01.30-14.42.45:921][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2023.01.30-14.42.45:929][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2023.01.30-14.42.45:957][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2023.01.30-14.42.45:957][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2023.01.30-14.42.45:969][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacNoEditor'
+[2023.01.30-14.42.45:977][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Mac'
+[2023.01.30-14.42.45:986][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacClient'
+[2023.01.30-14.42.45:994][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacServer'
+[2023.01.30-14.42.46:007][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2023.01.30-14.42.46:007][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2023.01.30-14.42.46:022][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2023.01.30-14.42.46:030][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2023.01.30-14.42.46:039][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2023.01.30-14.42.46:047][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2023.01.30-14.42.46:047][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2023.01.30-14.42.46:069][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2023.01.30-14.42.46:146][  0]LogTextureFormatOodle: Display: Oodle Texture 2.9.0 init RDO Off
+[2023.01.30-14.42.46:232][  0]LogRendererCore: Ray tracing is disabled. Reason: r.RayTracing=0.
+[2023.01.30-14.42.46:232][  0]LogShaderCompilers: Guid format shader working directory is 13 characters bigger than the processId version (E:/Github/ProjectYJ/ProjectYJ/Intermediate/Shaders/WorkingDirectory/15320/).
+[2023.01.30-14.42.46:233][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/YJ/AppData/Local/Temp/UnrealShaderWorkingDir/7467B1CD4A48BD16250DC1A5DAE5AEF4/'.
+[2023.01.30-14.42.46:233][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2023.01.30-14.42.46:233][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2023.01.30-14.42.46:233][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2023.01.30-14.42.46:981][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2023.01.30-14.42.47:036][  0]LogDerivedDataCache: Loaded boot cache 0.05s 103MB C:/Users/YJ/AppData/Local/UnrealEngine/4.27/DerivedDataCache/Boot.ddc.
+[2023.01.30-14.42.47:037][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/YJ/AppData/Local/UnrealEngine/4.27/DerivedDataCache/Boot.ddc
+[2023.01.30-14.42.47:037][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Github/ProjectYJ/ProjectYJ/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2023.01.30-14.42.47:037][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2023.01.30-14.42.47:037][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/Github/ProjectYJ/ProjectYJ/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2023.01.30-14.42.47:037][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2023.01.30-14.42.47:052][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2023.01.30-14.42.47:052][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2023.01.30-14.42.47:052][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2023.01.30-14.42.47:065][  0]LogDerivedDataCache: Speed tests for C:/Users/YJ/AppData/Local/UnrealEngine/Common/DerivedDataCache took 0.01 seconds
+[2023.01.30-14.42.47:065][  0]LogDerivedDataCache: Display: Performance to C:/Users/YJ/AppData/Local/UnrealEngine/Common/DerivedDataCache: Latency=0.07ms. RandomReadSpeed=503.60MBs, RandomWriteSpeed=98.44MBs. Assigned SpeedClass 'Local'
+[2023.01.30-14.42.47:067][  0]LogDerivedDataCache: Using Local data cache path C:/Users/YJ/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2023.01.30-14.42.47:067][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2023.01.30-14.42.47:067][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2023.01.30-14.42.47:110][  0]LogSlate: Using FreeType 2.10.0
+[2023.01.30-14.42.47:111][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2023.01.30-14.42.47:140][  0]LogAssetRegistry: FAssetRegistry took 0.0044 seconds to start up
+[2023.01.30-14.42.47:356][  0]LogInit: Selected Device Profile: [Windows]
+[2023.01.30-14.42.47:356][  0]LogInit: Active device profile: [0000021AC678AF00][0000021ABC1789C0 49] Windows
+[2023.01.30-14.42.47:356][  0]LogInit: Profiles: [0000021AC678AF00][0000021ABC1789C0 49] Windows, [0000021AC673D400][0000021AC64EAB40 49] WindowsNoEditor, [0000021AC6789300][0000021AC64EECC0 49] WindowsServer, [0000021AC673ED00][0000021AC64F2E40 49] WindowsClient, [0000021AC678AC00][0000021AC64F6FC0 49] IOS, [0000021AC673D800][0000021ABBE2B140 49] iPadAir, [0000021AC6789700][0000021AC65032C0 49] iPadAir2, [0000021AC66B3E00][0000021AC650B580 49] IPadPro, [0000021AC66B3F00][0000021AC65075C0 49] iPadAir3, [0000021AC678A800][0000021ABC131740 49] iPadAir4, [0000021AC66B1700][0000021ABC1358C0 49] iPadMini2, [0000021AC6789900][0000021ABC13DA40 49] iPadMini3, [0000021AC66B2700][0000021ABC141BC0 49] iPadMini4, [0000021AC678B000][0000021AC5FF01C0 49] iPadMini5, [0000021AC66EF700][0000021AC5FF8480 49] iPhone6, [0000021AC66EF800][0000021AC5FF44C0 49] iPodTouch6, [0000021AC66B0500][0000021AC6008700 49] iPhone7, [0000021AC66B0400][0000021ABC17C740 49] iPodTouch7, [0000021AC66ED600][0000021AC600C880 49] iPhone5S, [0000021AC66B2600][0000021AC60109C0 49] iPhone6Plus, [0000021AC66EE800][0000021ABC15EB40 49] iPhone6S, [0000021AC66B1B00][0000021ABC162CC0 49] iPhone6SPlus, [0000021AC66ED400][0000021ABC166E40 49] iPhone7Plus, [0000021AC66B1600][0000021ABC16AFC0 49] iPhoneSE, [0000021AC66EC900][0000021AC5D8B140 49] iPhone8, [0000021AC66B2300][0000021AC5D8F2C0 49] iPhone8Plus, [0000021AC66EDA00][0000021AC5D93440 49] iPhoneX, [0000021AC66B0100][0000021AC5D975C0 49] iPhoneXS, [0000021AC66EE400][0000021AC5D9B740 49] iPhoneXSMax, [0000021AC66B2B00][0000021AC5D9F8C0 49] iPhoneXR, [0000021AC66EDF00][0000021AC5DA3A40 49] iPhone11, [0000021AC66B2C00][0000021AB8711BC0 49] iPhone11Pro, [0000021AC66EE100][0000021AB87141C0 49] iPhone11ProMax, [0000021AC66B1400][0000021ABC12C340 49] iPhoneSE2, [0000021AC66ECD00][0000021ABC1384C0 49] iPhone12Mini, [0000021AC66B3200][0000021AC5DA6640 49] iPhone12, [0000021AC66EC700][0000021ABC15A780 49] iPhone12Pro, [0000021AC66B1300][0000021AC5DAA8C0 49] iPhone12ProMax, [0000021AC66EC100][0000021AC5DAEA00 49] iPadPro105, [0000021AC66B2E00][0000021AC5DB2B40 49] iPadPro129, [0000021AC66ED000][0000021AC5DBACC0 49] iPadPro97, [0000021AC66B0D00][0000021AC5DBEE40 49] iPadPro2_129, [0000021AC66EF100][0000021AC5DC2FC0 49] iPad5, [0000021AC66B0C00][0000021AB87C1140 49] iPad6, [0000021AC66ECB00][0000021AB87C52C0 49] iPad7, [0000021AC66B2100][0000021AB87C9440 49] iPad8, [0000021AC66EFA00][0000021AB87CD5C0 49] iPadPro11, [0000021AC66B0800][0000021AB87D1740 49] iPadPro2_11, [0000021AC66EDD00][0000021AB87D58C0 49] iPadPro3_129, [0000021AC66B2A00][0000021AB87D9A40 49] iPadPro4_129, [0000021AC66ECE00][0000021AB87DDBC0 49] AppleTV, [0000021AC66B2500][0000021AB87E01C0 49] AppleTV4K, [0000021AC66EE300][0000021AB87E4340 49] TVOS, [0000021AC66B0900][0000021AC5FB24C0 49] Mac, [0000021AC66EED00][0000021AC5FB6640 49] MacClient, [0000021AC66B2D00][0000021AC5FBA7C0 49] MacNoEditor, [0000021AC673E800][0000021AC5FBE940 49] MacServer, [0000021AC67D4100][0000021AC5DB6A80 49] Linux, [0000021AC673C900][0000021AC5FC2BC0 49] LinuxAArch64, [0000021AC67D5A00][0000021AC5FC6D00 49] LinuxNoEditor, [0000021AC673D600][0000021AC5FCEE80 49] LinuxAArch64NoEditor, [0000021AC67D4B00][0000021AC5FD3000 49] LinuxClient, [0000021AC673C300][0000021AC5FD7180 49] LinuxAArch64Client, [0000021AC67D5700][0000021AC5FDB300 49] LinuxServer, [0000021AC673F500][0000021AC5FDF480 49] LinuxAArch64Server, [0000021AC67D4E00][0000021AC5FE3600 49] Android, [0000021AC673E100][0000021AC5FE7780 49] Android_Low, [0000021AC67D5500][0000021AC5FEB900 49] Android_Mid, [0000021AC673C800][0000021AC5F05A80 49] Android_High, [0000021AC67D5200][0000021AC5F09C00 49] Android_Default, [0000021AC673E000][0000021AC5F0C200 49] Android_Adreno4xx, [0000021AC67D4D00][0000021AC5F10380 49] Android_Adreno5xx_Low, [0000021AC673E500][0000021AC5F14500 49] Android_Adreno5xx, [0000021AC67D4300][0000021AC5F18680 49] Android_Adreno6xx, [0000021AC673F800][0000021AC5F1C800 49] Android_Adreno6xx_Vulkan, [0000021AC67D4400][0000021AC5F20980 49] Android_Mali_T6xx, [0000021AC673F100][0000021AC5F24B00 49] Android_Mali_T7xx, [0000021AC67D5600][0000021AC5FCAC40 49] Android_Mali_T8xx, [0000021AC673EB00][0000021AC5F28D80 49] Android_Mali_G71, [0000021AC67D5000][0000021AC5F2CEC0 49] Android_Mali_G72, [0000021AC66B3600][0000021AC5F35040 49] Android_Mali_G72_Vulkan, [0000021AC66EF900][0000021AC5F391C0 49] Android_Mali_G76, [0000021AC66B1800][0000021AC5F3D340 49] Android_Mali_G76_Vulkan, [0000021AC66EDC00][0000021AC5F414C0 49] Android_Mali_G77, [0000021AC66B1900][0000021AC5F45640 49] Android_Mali_G77_Vulkan, [0000021AC66EEF00][0000021AC5F497C0 49] Android_Mali_G78, [0000021AC66B0200][0000021AC5F4D940 49] Android_Mali_G78_Vulkan, [0000021AC66EE500][0000021AC5F51AC0 49] Android_Mali_G710, [0000021AC66B3700][0000021AC5F540C0 49] Android_Mali_G710_Vulkan, [0000021AC66ECF00][0000021AC5F58240 49] Android_Vulkan_SM5, [0000021AC66B3300][0000021AC5F5C3C0 49] Android_PowerVR_G6xxx, [0000021AC66EC400][0000021AC5F60540 49] Android_PowerVR_GT7xxx, [0000021AC66B3A00][0000021AC5F646C0 49] Android_PowerVR_GE8xxx, [0000021AC66EC600][0000021AC5F68840 49] Android_PowerVR_GM9xxx, [0000021AC66B3C00][0000021AC5F6C9C0 49] Android_PowerVR_GM9xxx_Vulkan, [0000021AC66ED500][0000021AC5F70B40 49] Android_TegraK1, [0000021AC66B2F00][0000021AC63C8CC0 49] Android_Unknown_Vulkan, [0000021AC66EDB00][0000021AC5F30E00 49] Lumin, [0000021AC66B3900][0000021AC63CCF40 49] Lumin_Desktop, [0000021AC66EF300][0000021AC63D1080 49] HoloLens, 
+[2023.01.30-14.42.47:522][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2023.01.30-14.42.47:522][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2023.01.30-14.42.47:522][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2023.01.30-14.42.47:522][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2023.01.30-14.42.47:522][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2023.01.30-14.42.47:543][  0]LogNetVersion: ProjectYJ 1.0.0, NetCL: 17155196, EngineNetVer: 17, GameNetVer: 0 (Checksum: 2773946957)
+[2023.01.30-14.42.47:938][  0]LogTexture: Default maximum texture size for cubemaps generated from long-lat sources has been changed from 512 to unlimited. In order to preserve old behaiour for '/Engine/MapTemplates/Sky/DaylightAmbientCubemap.DaylightAmbientCubemap', its maximum texture size has been explicitly set to 512.
+[2023.01.30-14.42.47:989][  0]LogHMD: PokeAHoleMaterial loaded successfully
+[2023.01.30-14.42.47:994][  0]LogUObjectArray: 17178 objects as part of root set at end of initial load.
+[2023.01.30-14.42.47:995][  0]LogUObjectAllocator: 4302048 out of 0 bytes used by permanent object pool.
+[2023.01.30-14.42.47:995][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2023.01.30-14.42.48:609][  0]LogPython: Using Python 3.7.7
+[2023.01.30-14.42.49:106][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2023.01.30-14.42.49:116][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2023.01.30-14.42.49:146][  0]LogNiagaraDebuggerClient: Niagara Debugger Client Initialized | Session: ADAF7FA84972673A573947858928E747 | Instance: EF48FC4E4AF3367EE4B3DE86D32DA3B9 (DESKTOP-YJ-15320).
+[2023.01.30-14.42.49:687][  0]SourceControl: Source control is disabled
+[2023.01.30-14.42.49:687][  0]SourceControl: Source control is disabled
+[2023.01.30-14.42.49:702][  0]SourceControl: Source control is disabled
+[2023.01.30-14.42.49:709][  0]SourceControl: Source control is disabled
+[2023.01.30-14.42.49:734][  0]SourceControl: Source control is disabled
+[2023.01.30-14.42.49:749][  0]LogUProjectInfo: Found projects:
+[2023.01.30-14.42.50:139][  0]LogOpenImageDenoise: OIDN starting up
+[2023.01.30-14.42.50:211][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2023.01.30-14.42.50:248][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2023.01.30-14.42.50:248][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2023.01.30-14.42.50:440][  0]LogCollectionManager: Loaded 0 collections in 0.000682 seconds
+[2023.01.30-14.42.50:479][  0]LogFileCache: Scanning file cache for directory 'E:/Github/ProjectYJ/ProjectYJ/Saved/Collections/' took 0.00s
+[2023.01.30-14.42.50:479][  0]LogFileCache: Scanning file cache for directory 'E:/Github/ProjectYJ/ProjectYJ/Content/Developers/YJ/Collections/' took 0.00s
+[2023.01.30-14.42.50:479][  0]LogFileCache: Scanning file cache for directory 'E:/Github/ProjectYJ/ProjectYJ/Content/Collections/' took 0.00s
+[2023.01.30-14.42.50:480][  0]LogOcInput: OculusInput pre-init called
+[2023.01.30-14.42.50:758][  0]LogEngine: Initializing Engine...
+[2023.01.30-14.42.50:763][  0]LogHMD: Failed to enumerate extensions. Please check that you have a valid OpenXR runtime installed.
+[2023.01.30-14.42.50:764][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2023.01.30-14.42.50:764][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2023.01.30-14.42.50:765][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2023.01.30-14.42.50:895][  0]LogInit: Initializing FReadOnlyCVARCache
+[2023.01.30-14.42.50:906][  0]LogAIModule: Creating AISystem for world Untitled
+[2023.01.30-14.42.50:907][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2023.01.30-14.42.50:914][  0]LogAudio: Display: Loading Default Audio Settings Objects...
+[2023.01.30-14.42.50:915][  0]LogAudio: Display: No default SoundConcurrencyObject specified (or failed to load).
+[2023.01.30-14.42.50:915][  0]LogAudio: Display: Audio Device Manager Initialized
+[2023.01.30-14.42.50:915][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2023.01.30-14.42.50:916][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.30-14.42.50:916][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.30-14.42.50:916][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.30-14.42.50:916][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.30-14.42.50:916][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.01.30-14.42.50:916][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.01.30-14.42.50:916][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.01.30-14.42.50:916][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.30-14.42.50:916][  0]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.30-14.42.50:916][  0]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.30-14.42.50:916][  0]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.30-14.42.50:916][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2023.01.30-14.42.50:947][  0]LogAudioMixer: Display: 0: FrontLeft
+[2023.01.30-14.42.50:947][  0]LogAudioMixer: Display: 1: FrontRight
+[2023.01.30-14.42.51:009][  0]LogAudioMixer: Display: Using Audio Device 스피커(Realtek High Definition Audio)
+[2023.01.30-14.42.51:011][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.30-14.42.51:015][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.30-14.42.51:015][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.30-14.42.51:016][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.01.30-14.42.51:016][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.01.30-14.42.51:016][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.01.30-14.42.51:018][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.01.30-14.42.51:018][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.01.30-14.42.51:018][  0]LogInit: FAudioDevice initialized.
+[2023.01.30-14.42.51:018][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2023.01.30-14.42.51:018][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2023.01.30-14.42.51:101][  0]LogDerivedDataCache: Saved boot cache 0.08s 103MB C:/Users/YJ/AppData/Local/UnrealEngine/4.27/DerivedDataCache/Boot.ddc.
+[2023.01.30-14.42.51:103][  0]LogInit: Texture streaming: Enabled
+[2023.01.30-14.42.51:127][  0]LogAnalytics: Display: [UEEditor.Rocket.Release] APIServer = https://datarouter.ol.epicgames.com/. AppVersion = 4.27.2-18319896+++UE4+Release-4.27
+[2023.01.30-14.42.51:137][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2023.01.30-14.42.51:137][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2023.01.30-14.42.51:143][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2023.01.30-14.42.51:174][  0]LogInit: Transaction tracking system initialized
+[2023.01.30-14.42.51:218][  0]BlueprintLog: New page: Editor Load
+[2023.01.30-14.42.51:344][  0]LocalizationService: Localization service is disabled
+[2023.01.30-14.42.51:394][  0]TimingProfiler: Initialize
+[2023.01.30-14.42.51:394][  0]TimingProfiler: OnSessionChanged
+[2023.01.30-14.42.51:394][  0]LoadingProfiler: Initialize
+[2023.01.30-14.42.51:394][  0]LoadingProfiler: OnSessionChanged
+[2023.01.30-14.42.51:394][  0]NetworkingProfiler: Initialize
+[2023.01.30-14.42.51:394][  0]NetworkingProfiler: OnSessionChanged
+[2023.01.30-14.42.51:394][  0]MemoryProfiler: Initialize
+[2023.01.30-14.42.51:395][  0]MemoryProfiler: OnSessionChanged
+[2023.01.30-14.42.51:594][  0]LogCook: Display: CookSettings for Memory: MemoryMaxUsedVirtual 0MiB, MemoryMaxUsedPhysical 16384MiB, MemoryMinFreeVirtual 0MiB, MemoryMinFreePhysical 1024MiB
+[2023.01.30-14.42.51:594][  0]LogCook: Display: Mobile HDR setting 1
+[2023.01.30-14.42.51:933][  0]LogFileCache: Scanning file cache for directory 'E:/Github/ProjectYJ/ProjectYJ/Content/' took 0.01s
+[2023.01.30-14.42.52:138][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2023.01.30-14.42.52:143][  0]SourceControl: Source control is disabled
+[2023.01.30-14.42.52:144][  0]LogUnrealEdMisc: Loading editor; pre map load, took 10.227
+[2023.01.30-14.42.52:144][  0]Cmd: MAP LOAD FILE="E:/Github/ProjectYJ/ProjectYJ/Content/Levels/TestMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2023.01.30-14.42.52:144][  0]LightingResults: New page: Lighting Build
+[2023.01.30-14.42.52:146][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2023.01.30-14.42.52:146][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.30-14.42.52:146][  0]MapCheck: New page: Map Check
+[2023.01.30-14.42.52:146][  0]LightingResults: New page: Lighting Build
+[2023.01.30-14.42.52:150][  0]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.01.30-14.42.52:154][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2023.01.30-14.42.52:193][  0]LogTexture: Display: Building textures: DeprecatedTextureEB9CBE3C423008B5E8E130901E171C89 (BGRA8, 128X128)
+[2023.01.30-14.42.52:195][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'TestMap'.
+[2023.01.30-14.42.52:196][  0]LogAIModule: Creating AISystem for world TestMap
+[2023.01.30-14.42.52:202][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.01.30-14.42.52:209][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2023.01.30-14.42.52:209][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.01.30-14.42.52:209][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.097ms to complete.
+[2023.01.30-14.42.52:209][  0]LogFileHelpers: Loading map 'TestMap' took 0.066
+[2023.01.30-14.42.52:212][  0]LogUnrealEdMisc: Total Editor Startup Time, took 10.295
+[2023.01.30-14.42.52:341][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.30-14.42.52:347][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.30-14.42.52:352][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.30-14.42.52:358][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.30-14.42.52:372][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0083 seconds. Added 3829 classes and 939 folders.
+[2023.01.30-14.42.52:375][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2023.01.30-14.42.52:376][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2023.01.30-14.42.52:377][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.01.30-14.42.52:377][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2023.01.30-14.42.52:377][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'D:/Epic Games/UE_4.27/FeaturePacks/FP_FirstPerson.upack' (chunk index -1, root 'root:/') mounted
+[2023.01.30-14.42.52:377][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:D:/Epic Games/UE_4.27/FeaturePacks/FP_FirstPerson.upack)
+[2023.01.30-14.42.52:377][  0]LogPakFile: OnPakFileMounted2Time == 0.000178
+[2023.01.30-14.42.52:378][  0]LogPakFile: PakFile PrimaryIndexSize=189
+[2023.01.30-14.42.52:378][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.01.30-14.42.52:378][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
+[2023.01.30-14.42.52:378][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'D:/Epic Games/UE_4.27/FeaturePacks/FP_FirstPersonBP.upack' (chunk index -1, root 'root:/') mounted
+[2023.01.30-14.42.52:378][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:D:/Epic Games/UE_4.27/FeaturePacks/FP_FirstPersonBP.upack)
+[2023.01.30-14.42.52:378][  0]LogPakFile: OnPakFileMounted2Time == 0.000140
+[2023.01.30-14.42.52:379][  0]LogPakFile: PakFile PrimaryIndexSize=191
+[2023.01.30-14.42.52:379][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.01.30-14.42.52:379][  0]LogPakFile: PakFile FullDirectoryIndexSize=160
+[2023.01.30-14.42.52:379][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'D:/Epic Games/UE_4.27/FeaturePacks/MobileStarterContent.upack' (chunk index -1, root 'root:/') mounted
+[2023.01.30-14.42.52:379][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:D:/Epic Games/UE_4.27/FeaturePacks/MobileStarterContent.upack)
+[2023.01.30-14.42.52:379][  0]LogPakFile: OnPakFileMounted2Time == 0.000142
+[2023.01.30-14.42.52:380][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2023.01.30-14.42.52:380][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.01.30-14.42.52:380][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2023.01.30-14.42.52:380][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'D:/Epic Games/UE_4.27/FeaturePacks/StarterContent.upack' (chunk index -1, root 'root:/') mounted
+[2023.01.30-14.42.52:380][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:D:/Epic Games/UE_4.27/FeaturePacks/StarterContent.upack)
+[2023.01.30-14.42.52:380][  0]LogPakFile: OnPakFileMounted2Time == 0.000149
+[2023.01.30-14.42.52:381][  0]LogPakFile: PakFile PrimaryIndexSize=190
+[2023.01.30-14.42.52:381][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.01.30-14.42.52:381][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
+[2023.01.30-14.42.52:381][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'D:/Epic Games/UE_4.27/FeaturePacks/TP_2DSideScroller.upack' (chunk index -1, root 'root:/') mounted
+[2023.01.30-14.42.52:381][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:D:/Epic Games/UE_4.27/FeaturePacks/TP_2DSideScroller.upack)
+[2023.01.30-14.42.52:382][  0]LogPakFile: OnPakFileMounted2Time == 0.000155
+[2023.01.30-14.42.52:382][  0]LogPakFile: PakFile PrimaryIndexSize=192
+[2023.01.30-14.42.52:383][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.01.30-14.42.52:383][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
+[2023.01.30-14.42.52:383][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'D:/Epic Games/UE_4.27/FeaturePacks/TP_2DSideScrollerBP.upack' (chunk index -1, root 'root:/') mounted
+[2023.01.30-14.42.52:383][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:D:/Epic Games/UE_4.27/FeaturePacks/TP_2DSideScrollerBP.upack)
+[2023.01.30-14.42.52:383][  0]LogPakFile: OnPakFileMounted2Time == 0.000135
+[2023.01.30-14.42.52:384][  0]LogPakFile: PakFile PrimaryIndexSize=182
+[2023.01.30-14.42.52:384][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.01.30-14.42.52:384][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
+[2023.01.30-14.42.52:384][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'D:/Epic Games/UE_4.27/FeaturePacks/TP_Flying.upack' (chunk index -1, root 'root:/') mounted
+[2023.01.30-14.42.52:384][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:D:/Epic Games/UE_4.27/FeaturePacks/TP_Flying.upack)
+[2023.01.30-14.42.52:384][  0]LogPakFile: OnPakFileMounted2Time == 0.000139
+[2023.01.30-14.42.52:385][  0]LogPakFile: PakFile PrimaryIndexSize=184
+[2023.01.30-14.42.52:385][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.01.30-14.42.52:385][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
+[2023.01.30-14.42.52:385][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'D:/Epic Games/UE_4.27/FeaturePacks/TP_FlyingBP.upack' (chunk index -1, root 'root:/') mounted
+[2023.01.30-14.42.52:385][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:D:/Epic Games/UE_4.27/FeaturePacks/TP_FlyingBP.upack)
+[2023.01.30-14.42.52:385][  0]LogPakFile: OnPakFileMounted2Time == 0.000134
+[2023.01.30-14.42.52:386][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2023.01.30-14.42.52:386][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.01.30-14.42.52:386][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2023.01.30-14.42.52:386][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'D:/Epic Games/UE_4.27/FeaturePacks/TP_HandheldARBP.upack' (chunk index -1, root 'root:/') mounted
+[2023.01.30-14.42.52:386][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:D:/Epic Games/UE_4.27/FeaturePacks/TP_HandheldARBP.upack)
+[2023.01.30-14.42.52:386][  0]LogPakFile: OnPakFileMounted2Time == 0.000146
+[2023.01.30-14.42.52:387][  0]LogPakFile: PakFile PrimaryIndexSize=182
+[2023.01.30-14.42.52:387][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.01.30-14.42.52:387][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
+[2023.01.30-14.42.52:387][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'D:/Epic Games/UE_4.27/FeaturePacks/TP_Puzzle.upack' (chunk index -1, root 'root:/') mounted
+[2023.01.30-14.42.52:388][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:D:/Epic Games/UE_4.27/FeaturePacks/TP_Puzzle.upack)
+[2023.01.30-14.42.52:388][  0]LogPakFile: OnPakFileMounted2Time == 0.000134
+[2023.01.30-14.42.52:388][  0]LogPakFile: PakFile PrimaryIndexSize=184
+[2023.01.30-14.42.52:388][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.01.30-14.42.52:388][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
+[2023.01.30-14.42.52:389][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'D:/Epic Games/UE_4.27/FeaturePacks/TP_PuzzleBP.upack' (chunk index -1, root 'root:/') mounted
+[2023.01.30-14.42.52:389][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:D:/Epic Games/UE_4.27/FeaturePacks/TP_PuzzleBP.upack)
+[2023.01.30-14.42.52:389][  0]LogPakFile: OnPakFileMounted2Time == 0.000132
+[2023.01.30-14.42.52:389][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2023.01.30-14.42.52:390][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.01.30-14.42.52:390][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2023.01.30-14.42.52:390][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'D:/Epic Games/UE_4.27/FeaturePacks/TP_Rolling.upack' (chunk index -1, root 'root:/') mounted
+[2023.01.30-14.42.52:390][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:D:/Epic Games/UE_4.27/FeaturePacks/TP_Rolling.upack)
+[2023.01.30-14.42.52:390][  0]LogPakFile: OnPakFileMounted2Time == 0.000140
+[2023.01.30-14.42.52:391][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2023.01.30-14.42.52:391][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.01.30-14.42.52:391][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2023.01.30-14.42.52:391][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'D:/Epic Games/UE_4.27/FeaturePacks/TP_RollingBP.upack' (chunk index -1, root 'root:/') mounted
+[2023.01.30-14.42.52:391][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:D:/Epic Games/UE_4.27/FeaturePacks/TP_RollingBP.upack)
+[2023.01.30-14.42.52:391][  0]LogPakFile: OnPakFileMounted2Time == 0.000150
+[2023.01.30-14.42.52:392][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2023.01.30-14.42.52:392][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.01.30-14.42.52:392][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2023.01.30-14.42.52:392][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'D:/Epic Games/UE_4.27/FeaturePacks/TP_SideScroller.upack' (chunk index -1, root 'root:/') mounted
+[2023.01.30-14.42.52:392][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:D:/Epic Games/UE_4.27/FeaturePacks/TP_SideScroller.upack)
+[2023.01.30-14.42.52:392][  0]LogPakFile: OnPakFileMounted2Time == 0.000141
+[2023.01.30-14.42.52:393][  0]LogPakFile: PakFile PrimaryIndexSize=190
+[2023.01.30-14.42.52:393][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.01.30-14.42.52:393][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
+[2023.01.30-14.42.52:393][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'D:/Epic Games/UE_4.27/FeaturePacks/TP_SideScrollerBP.upack' (chunk index -1, root 'root:/') mounted
+[2023.01.30-14.42.52:393][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:D:/Epic Games/UE_4.27/FeaturePacks/TP_SideScrollerBP.upack)
+[2023.01.30-14.42.52:394][  0]LogPakFile: OnPakFileMounted2Time == 0.000141
+[2023.01.30-14.42.52:394][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2023.01.30-14.42.52:394][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.01.30-14.42.52:395][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2023.01.30-14.42.52:395][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'D:/Epic Games/UE_4.27/FeaturePacks/TP_ThirdPerson.upack' (chunk index -1, root 'root:/') mounted
+[2023.01.30-14.42.52:395][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:D:/Epic Games/UE_4.27/FeaturePacks/TP_ThirdPerson.upack)
+[2023.01.30-14.42.52:395][  0]LogPakFile: OnPakFileMounted2Time == 0.000146
+[2023.01.30-14.42.52:395][  0]LogPakFile: PakFile PrimaryIndexSize=189
+[2023.01.30-14.42.52:396][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.01.30-14.42.52:396][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
+[2023.01.30-14.42.52:396][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'D:/Epic Games/UE_4.27/FeaturePacks/TP_ThirdPersonBP.upack' (chunk index -1, root 'root:/') mounted
+[2023.01.30-14.42.52:396][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:D:/Epic Games/UE_4.27/FeaturePacks/TP_ThirdPersonBP.upack)
+[2023.01.30-14.42.52:396][  0]LogPakFile: OnPakFileMounted2Time == 0.000144
+[2023.01.30-14.42.52:397][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2023.01.30-14.42.52:397][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.01.30-14.42.52:397][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2023.01.30-14.42.52:397][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'D:/Epic Games/UE_4.27/FeaturePacks/TP_TopDown.upack' (chunk index -1, root 'root:/') mounted
+[2023.01.30-14.42.52:397][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:D:/Epic Games/UE_4.27/FeaturePacks/TP_TopDown.upack)
+[2023.01.30-14.42.52:397][  0]LogPakFile: OnPakFileMounted2Time == 0.000135
+[2023.01.30-14.42.52:398][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2023.01.30-14.42.52:398][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.01.30-14.42.52:398][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2023.01.30-14.42.52:398][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'D:/Epic Games/UE_4.27/FeaturePacks/TP_TopDownBP.upack' (chunk index -1, root 'root:/') mounted
+[2023.01.30-14.42.52:398][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:D:/Epic Games/UE_4.27/FeaturePacks/TP_TopDownBP.upack)
+[2023.01.30-14.42.52:398][  0]LogPakFile: OnPakFileMounted2Time == 0.000130
+[2023.01.30-14.42.52:399][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2023.01.30-14.42.52:399][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.01.30-14.42.52:399][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2023.01.30-14.42.52:399][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'D:/Epic Games/UE_4.27/FeaturePacks/TP_TwinStick.upack' (chunk index -1, root 'root:/') mounted
+[2023.01.30-14.42.52:399][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:D:/Epic Games/UE_4.27/FeaturePacks/TP_TwinStick.upack)
+[2023.01.30-14.42.52:399][  0]LogPakFile: OnPakFileMounted2Time == 0.000246
+[2023.01.30-14.42.52:400][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2023.01.30-14.42.52:400][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.01.30-14.42.52:401][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2023.01.30-14.42.52:401][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'D:/Epic Games/UE_4.27/FeaturePacks/TP_TwinStickBP.upack' (chunk index -1, root 'root:/') mounted
+[2023.01.30-14.42.52:401][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:D:/Epic Games/UE_4.27/FeaturePacks/TP_TwinStickBP.upack)
+[2023.01.30-14.42.52:401][  0]LogPakFile: OnPakFileMounted2Time == 0.000151
+[2023.01.30-14.42.52:402][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2023.01.30-14.42.52:402][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.01.30-14.42.52:402][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2023.01.30-14.42.52:402][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'D:/Epic Games/UE_4.27/FeaturePacks/TP_Vehicle.upack' (chunk index -1, root 'root:/') mounted
+[2023.01.30-14.42.52:402][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:D:/Epic Games/UE_4.27/FeaturePacks/TP_Vehicle.upack)
+[2023.01.30-14.42.52:402][  0]LogPakFile: OnPakFileMounted2Time == 0.000128
+[2023.01.30-14.42.52:403][  0]LogPakFile: PakFile PrimaryIndexSize=186
+[2023.01.30-14.42.52:403][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.01.30-14.42.52:403][  0]LogPakFile: PakFile FullDirectoryIndexSize=146
+[2023.01.30-14.42.52:403][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'D:/Epic Games/UE_4.27/FeaturePacks/TP_VehicleAdv.upack' (chunk index -1, root 'root:/') mounted
+[2023.01.30-14.42.52:403][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:D:/Epic Games/UE_4.27/FeaturePacks/TP_VehicleAdv.upack)
+[2023.01.30-14.42.52:403][  0]LogPakFile: OnPakFileMounted2Time == 0.000131
+[2023.01.30-14.42.52:404][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2023.01.30-14.42.52:404][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.01.30-14.42.52:404][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2023.01.30-14.42.52:404][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'D:/Epic Games/UE_4.27/FeaturePacks/TP_VehicleAdvBP.upack' (chunk index -1, root 'root:/') mounted
+[2023.01.30-14.42.52:404][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:D:/Epic Games/UE_4.27/FeaturePacks/TP_VehicleAdvBP.upack)
+[2023.01.30-14.42.52:404][  0]LogPakFile: OnPakFileMounted2Time == 0.000131
+[2023.01.30-14.42.52:405][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2023.01.30-14.42.52:405][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.01.30-14.42.52:405][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2023.01.30-14.42.52:405][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'D:/Epic Games/UE_4.27/FeaturePacks/TP_VehicleBP.upack' (chunk index -1, root 'root:/') mounted
+[2023.01.30-14.42.52:405][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:D:/Epic Games/UE_4.27/FeaturePacks/TP_VehicleBP.upack)
+[2023.01.30-14.42.52:405][  0]LogPakFile: OnPakFileMounted2Time == 0.000128
+[2023.01.30-14.42.52:406][  0]LogPakFile: PakFile PrimaryIndexSize=192
+[2023.01.30-14.42.52:406][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.01.30-14.42.52:406][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
+[2023.01.30-14.42.52:406][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'D:/Epic Games/UE_4.27/FeaturePacks/TP_VirtualRealityBP.upack' (chunk index -1, root 'root:/') mounted
+[2023.01.30-14.42.52:406][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:D:/Epic Games/UE_4.27/FeaturePacks/TP_VirtualRealityBP.upack)
+[2023.01.30-14.42.52:406][  0]LogPakFile: OnPakFileMounted2Time == 0.000136
+[2023.01.30-14.42.52:468][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2023.01.30-14.42.52:472][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 0 folders.
+[2023.01.30-14.42.52:558][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2023.01.30-14.42.52:558][  0]LogInput: Warning: Action Jump uses invalid key OculusGo_Left_Trigger_Click.
+[2023.01.30-14.42.52:558][  0]LogInput: Warning: Action ResetVR uses invalid key OculusGo_Left_Trackpad_Click.
+[2023.01.30-14.42.52:558][  0]LogInput: Warning: Use -RemoveInvalidKeys to remove instances of these keys from the action mapping.
+[2023.01.30-14.42.52:558][  0]LogLoad: (Engine Initialization) Total time: 10.64 seconds
+[2023.01.30-14.42.52:558][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2023.01.30-14.42.52:604][  0]LogAssetRegistry: Asset discovery search completed in 5.4667 seconds
+[2023.01.30-14.42.52:611][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
+[2023.01.30-14.42.52:611][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2023.01.30-14.42.52:617][  0]LogSlate: Took 0.000314 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2023.01.30-14.42.52:618][  0]LogSlate: Took 0.000226 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2023.01.30-14.42.52:619][  0]LogSlate: Took 0.000213 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2023.01.30-14.42.52:698][  1]LogRenderer: Reallocating scene render targets to support 768x352 Format 10 NumSamples 1 (Frame:1).
+[2023.01.30-14.42.54:358][ 14]LogRenderer: Reallocating scene render targets to support 2076x792 Format 10 NumSamples 1 (Frame:10).
+[2023.01.30-14.43.16:196][872]LogSlate: Took 0.001127 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.01.30-14.43.16:230][872]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.01.30-14.43.16:279][872]LogSlate: Took 0.005049 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2023.01.30-14.43.35:970][815]Running D:/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="E:/Github/ProjectYJ/ProjectYJ/ProjectYJ.uproject" -game -rocket -progress
+[2023.01.30-14.43.36:382][815]Discovering modules, targets and source code for project...
+[2023.01.30-14.43.38:300][815]Binding IntelliSense data...
+[2023.01.30-14.43.40:435][815]Binding IntelliSense data... 100%
+[2023.01.30-14.43.40:435][815]Writing project files...
+[2023.01.30-14.43.43:564][815]Writing project files... 100%
+[2023.01.30-14.43.43:739][815]LogVSAccessor: Warning: Couldn't save all documents
+[2023.01.30-14.43.43:759][815]Candidate modules for hot reload:
+[2023.01.30-14.43.43:759][815]  ProjectYJ
+[2023.01.30-14.43.43:759][815]Launching UnrealBuildTool... [D:/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ProjectYJ,2034 ProjectYJEditor Win64 Development -Project="E:/Github/ProjectYJ/ProjectYJ/ProjectYJ.uproject" "E:/Github/ProjectYJ/ProjectYJ/ProjectYJ.uproject"  -IgnoreJunk]
+[2023.01.30-14.43.58:534][815]CompilerResultsLog: New page: Compilation - 2023. 1. 31. 오전 8:43:58
+[2023.01.30-14.43.58:534][815]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\Github\ProjectYJ).
+[2023.01.30-14.43.58:534][815]CompilerResultsLog: Creating makefile for ProjectYJEditor (no existing makefile)
+[2023.01.30-14.43.58:534][815]CompilerResultsLog: Parsing headers for ProjectYJEditor
+[2023.01.30-14.43.58:534][815]CompilerResultsLog:   Running UnrealHeaderTool "E:\Github\ProjectYJ\ProjectYJ\ProjectYJ.uproject" "E:\Github\ProjectYJ\ProjectYJ\Intermediate\Build\Win64\ProjectYJEditor\Development\ProjectYJEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\YJ\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2023.01.30-14.43.58:535][815]CompilerResultsLog: LogInit: Display: Loading text-based GConfig....
+[2023.01.30-14.43.58:535][815]CompilerResultsLog: Reflection code generated for ProjectYJEditor in 3.9167575 seconds
+[2023.01.30-14.43.58:535][815]CompilerResultsLog: Building ProjectYJEditor...
+[2023.01.30-14.43.58:535][815]CompilerResultsLog: Using Visual Studio 2019 14.28.29915 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2023.01.30-14.43.58:535][815]CompilerResultsLog: Building 6 actions with 12 processes...
+[2023.01.30-14.43.58:535][815]CompilerResultsLog:   [1/6] ProjectYJ.init.gen.cpp
+[2023.01.30-14.43.58:535][815]CompilerResultsLog:   [2/6] CustomAssetManager.cpp
+[2023.01.30-14.43.58:535][815]CompilerResultsLog:   [3/6] CustomAssetManager.gen.cpp
+[2023.01.30-14.43.58:535][815]CompilerResultsLog:   [4/6] UE4Editor-ProjectYJ-2034.lib
+[2023.01.30-14.43.58:535][815]CompilerResultsLog:      E:\Github\ProjectYJ\ProjectYJ\Intermediate\Build\Win64\UE4Editor\Development\ProjectYJ\UE4Editor-ProjectYJ-2034.lib ???̺귯?? ?? E:\Github\ProjectYJ\ProjectYJ\Intermediate\Build\Win64\UE4Editor\Development\ProjectYJ\UE4Editor-ProjectYJ-2034.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2023.01.30-14.43.58:535][815]CompilerResultsLog:   [5/6] UE4Editor-ProjectYJ-2034.dll
+[2023.01.30-14.43.58:535][815]CompilerResultsLog:      E:\Github\ProjectYJ\ProjectYJ\Intermediate\Build\Win64\UE4Editor\Development\ProjectYJ\UE4Editor-ProjectYJ-2034.suppressed.lib ???̺귯?? ?? E:\Github\ProjectYJ\ProjectYJ\Intermediate\Build\Win64\UE4Editor\Development\ProjectYJ\UE4Editor-ProjectYJ-2034.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2023.01.30-14.43.58:536][815]CompilerResultsLog:   [6/6] ProjectYJEditor.target
+[2023.01.30-14.43.58:536][815]CompilerResultsLog: Total time in Parallel executor: 8.70 seconds
+[2023.01.30-14.43.58:536][815]CompilerResultsLog: Total execution time: 14.67 seconds
+[2023.01.30-14.43.58:536][815]LogMainFrame: MainFrame: Module compiling took 14.787 seconds
+[2023.01.30-14.43.58:933][815]LogClass: Could not find existing class CustomAssetManager in package /Script/ProjectYJ for HotReload, assuming new class
+[2023.01.30-14.43.58:939][815]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'ProjectYJ' in 0.0003 seconds. Added 6 classes and 9 folders.
+[2023.01.30-14.43.58:941][815]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2023.01.30-14.43.59:001][815]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0084 seconds. Added 3830 classes and 940 folders.
+[2023.01.30-14.43.59:002][815]Display: HotReload took 15.3s.
+[2023.01.30-14.43.59:011][815]Warning: HotReload operation took 15.3s.
+[2023.01.30-14.43.59:034][815]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.43.59:037][815]LogSlate: Window 'Add C++ Class' being destroyed
+[2023.01.30-14.43.59:052][815]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.43.59:053][815]LogHotReload: New module detected: UE4Editor-ProjectYJ-2034.dll
+[2023.01.30-14.43.59:085][816]LogHotReload: Starting Hot-Reload from IDE
+[2023.01.30-14.43.59:163][816]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'ProjectYJ' in 0.0003 seconds. Added 6 classes and 9 folders.
+[2023.01.30-14.43.59:165][816]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2023.01.30-14.43.59:175][816]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0083 seconds. Added 3830 classes and 940 folders.
+[2023.01.30-14.43.59:178][816]Display: HotReload took  0.1s.
+[2023.01.30-14.43.59:254][816]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.43.59:594][817]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.43.59:926][818]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.00:260][819]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.00:599][820]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.00:935][821]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.01:268][822]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.01:602][823]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.01:941][824]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.02:277][825]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.02:609][826]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.02:944][827]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.03:276][828]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.03:610][829]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.03:944][830]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.04:276][831]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.04:609][832]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.04:949][833]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.05:283][834]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.05:621][835]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.05:954][836]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.06:288][837]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.06:626][838]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.06:963][839]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.07:301][840]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.07:634][841]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.07:969][842]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.08:307][843]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.08:639][844]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.08:974][845]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.09:311][846]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.09:651][847]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.09:988][848]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.10:324][849]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.10:656][850]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.10:989][851]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.11:323][852]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.11:656][853]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.11:989][854]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.12:330][855]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.12:668][856]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.13:004][857]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.13:338][858]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.13:674][859]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.14:011][860]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.14:344][861]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.14:678][862]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.15:012][863]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.15:345][864]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.15:682][865]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.16:015][866]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.16:349][867]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.16:682][868]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.17:015][869]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.17:353][870]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.17:688][871]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.18:022][872]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.18:354][873]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.18:691][874]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.19:023][875]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.19:360][876]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.19:697][877]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.20:032][878]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.20:368][879]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.20:701][880]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.21:036][881]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.21:373][882]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.21:706][883]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.22:040][884]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.22:378][885]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.22:712][886]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.23:045][887]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.23:379][888]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.23:712][889]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.24:047][890]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.24:385][891]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.24:722][892]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.25:055][893]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.25:387][894]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.25:721][895]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.26:061][896]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.26:395][897]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.26:731][898]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.27:071][899]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.27:403][900]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.27:740][901]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.28:078][902]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.28:415][903]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.28:749][904]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.29:086][905]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.29:421][906]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.29:754][907]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.30:088][908]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.30:424][909]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.30:756][910]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.31:089][911]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.31:428][912]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.31:761][913]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.32:095][914]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.32:431][915]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.32:760][916]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.32:768][917]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.32:776][918]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.32:785][919]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.32:811][920]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.32:846][921]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.32:876][922]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.32:911][923]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.32:941][924]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.32:966][925]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.33:645][926]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.33:652][927]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.33:660][928]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.33:669][929]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.33:677][930]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.33:686][931]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.33:704][932]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.33:711][933]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.33:720][934]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.33:729][935]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.33:738][936]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.33:746][937]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.33:760][938]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.33:771][939]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.33:780][940]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.33:788][941]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.33:796][942]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.33:804][943]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.33:813][944]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.33:821][945]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.33:829][946]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.33:838][947]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.33:846][948]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.33:854][949]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.33:862][950]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.33:871][951]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.33:879][952]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.33:887][953]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.33:896][954]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.33:904][955]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.33:913][956]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.33:921][957]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.33:929][958]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.33:937][959]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.33:946][960]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.33:954][961]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.33:963][962]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.33:971][963]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.33:979][964]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.33:988][965]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.33:996][966]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.34:004][967]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.34:013][968]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.34:021][969]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.34:029][970]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.34:037][971]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.34:046][972]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.34:054][973]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.34:063][974]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.34:071][975]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.34:079][976]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.34:087][977]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.34:096][978]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.34:104][979]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.34:112][980]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.34:121][981]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.34:129][982]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.34:137][983]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.34:146][984]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.34:154][985]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.34:162][986]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.34:171][987]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.34:179][988]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.34:187][989]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.34:196][990]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.34:204][991]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.34:212][992]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.34:221][993]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.34:229][994]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.34:237][995]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.34:245][996]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.34:254][997]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.34:267][998]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.34:601][999]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.34:934][  0]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.01.30-14.44.35:274][  1]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
