@@ -1,7 +1,7 @@
 // Copyright Epic Games, Inc. All Rights Reserved.
 
 #include "ProjectYJGameMode.h"
-#include "Actor/ProjectYJCharacter.h"
+#include "Framework/Actor/ProjectYJCharacter.h"
 #include "UObject/ConstructorHelpers.h"
 
 AProjectYJGameMode::AProjectYJGameMode()

@@ -16,9 +16,9 @@ USignificanceManagerSetting::USignificanceManagerSetting()
 #if WITH_EDITOR
 	if (ISettingsModule* SettingsModule = FModuleManager::GetModulePtr<ISettingsModule>("settings"))
 	{
-		SettingsModule->RegisterSettings("Project", "YJ", "CustomSignificanceManager",
-			LOCTEXT("RuntimeSettingsName", "CustomSignificanceManager"),
-			LOCTEXT("RuntimeSettingsDescription", "Setting CustomSignificanceManager"),
+		SettingsModule->RegisterSettings("Project", "YJ", "SignificanceManager",
+			LOCTEXT("RuntimeSettingsName", "SignificanceManager"),
+			LOCTEXT("RuntimeSettingsDescription", "Setting SignificanceManager"),
 			GetMutableDefault<USignificanceManagerSetting>());
 	}
 #endif

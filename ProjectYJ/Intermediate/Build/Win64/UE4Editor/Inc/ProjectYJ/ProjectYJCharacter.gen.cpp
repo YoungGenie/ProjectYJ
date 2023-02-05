@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "ProjectYJ/Actor/ProjectYJCharacter.h"
+#include "ProjectYJ/Framework/Actor/ProjectYJCharacter.h"
 #ifdef _MSC_VER
 #pragma warning (push)
 #pragma warning (disable : 4883)
@@ -60,8 +60,8 @@ void EmptyLinkFunctionForGeneratedCodeProjectYJCharacter() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AProjectYJCharacter_Statics::Class_MetaDataParams[] = {
 		{ "HideCategories", "Navigation" },
-		{ "IncludePath", "Actor/ProjectYJCharacter.h" },
-		{ "ModuleRelativePath", "Actor/ProjectYJCharacter.h" },
+		{ "IncludePath", "Framework/Actor/ProjectYJCharacter.h" },
+		{ "ModuleRelativePath", "Framework/Actor/ProjectYJCharacter.h" },
 	};
 #endif
 #if WITH_METADATA
@@ -70,7 +70,7 @@ void EmptyLinkFunctionForGeneratedCodeProjectYJCharacter() {}
 		{ "Category", "Camera" },
 		{ "Comment", "/** Camera boom positioning the camera behind the character */" },
 		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "Actor/ProjectYJCharacter.h" },
+		{ "ModuleRelativePath", "Framework/Actor/ProjectYJCharacter.h" },
 		{ "ToolTip", "Camera boom positioning the camera behind the character" },
 	};
 #endif
@@ -81,7 +81,7 @@ void EmptyLinkFunctionForGeneratedCodeProjectYJCharacter() {}
 		{ "Category", "Camera" },
 		{ "Comment", "/** Follow camera */" },
 		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "Actor/ProjectYJCharacter.h" },
+		{ "ModuleRelativePath", "Framework/Actor/ProjectYJCharacter.h" },
 		{ "ToolTip", "Follow camera" },
 	};
 #endif
@@ -90,7 +90,7 @@ void EmptyLinkFunctionForGeneratedCodeProjectYJCharacter() {}
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AProjectYJCharacter_Statics::NewProp_BaseTurnRate_MetaData[] = {
 		{ "Category", "Camera" },
 		{ "Comment", "/** Base turn rate, in deg/sec. Other scaling may affect final turn rate. */" },
-		{ "ModuleRelativePath", "Actor/ProjectYJCharacter.h" },
+		{ "ModuleRelativePath", "Framework/Actor/ProjectYJCharacter.h" },
 		{ "ToolTip", "Base turn rate, in deg/sec. Other scaling may affect final turn rate." },
 	};
 #endif
@@ -99,7 +99,7 @@ void EmptyLinkFunctionForGeneratedCodeProjectYJCharacter() {}
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AProjectYJCharacter_Statics::NewProp_BaseLookUpRate_MetaData[] = {
 		{ "Category", "Camera" },
 		{ "Comment", "/** Base look up/down rate, in deg/sec. Other scaling may affect final rate. */" },
-		{ "ModuleRelativePath", "Actor/ProjectYJCharacter.h" },
+		{ "ModuleRelativePath", "Framework/Actor/ProjectYJCharacter.h" },
 		{ "ToolTip", "Base look up/down rate, in deg/sec. Other scaling may affect final rate." },
 	};
 #endif
@@ -137,7 +137,7 @@ void EmptyLinkFunctionForGeneratedCodeProjectYJCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AProjectYJCharacter, 746756381);
+	IMPLEMENT_CLASS(AProjectYJCharacter, 3226703023);
 	template<> PROJECTYJ_API UClass* StaticClass<AProjectYJCharacter>()
 	{
 		return AProjectYJCharacter::StaticClass();

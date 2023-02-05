@@ -1,6 +1,7 @@
-E:\Github\ProjectYJ\ProjectYJ\Source\ProjectYJ\Actor\ProjectYJCharacter.h
+E:\Github\ProjectYJ\ProjectYJ\Source\ProjectYJ\Framework\Actor\ProjectYJCharacter.h
 E:\Github\ProjectYJ\ProjectYJ\Source\ProjectYJ\Framework\GameMode\ProjectYJGameMode.h
-E:\Github\ProjectYJ\ProjectYJ\Source\ProjectYJ\Framework\Viewport\CustomGameViewportClient.h
+E:\Github\ProjectYJ\ProjectYJ\Source\ProjectYJ\System\AssetManager\YJAssetManager.h
 E:\Github\ProjectYJ\ProjectYJ\Source\ProjectYJ\System\SignificanceManager\SignificanceManagerSetting.h
-E:\Github\ProjectYJ\ProjectYJ\Source\ProjectYJ\System\SignificanceManager\CustomSignificanceManager.h
-E:\Github\ProjectYJ\ProjectYJ\Source\ProjectYJ\System\AssetManager\CustomAssetManager.h
+E:\Github\ProjectYJ\ProjectYJ\Source\ProjectYJ\System\SignificanceManager\YJSignificanceManager.h
+E:\Github\ProjectYJ\ProjectYJ\Source\ProjectYJ\Framework\Viewport\YJGameViewportClient.h
+E:\Github\ProjectYJ\ProjectYJ\Source\ProjectYJ\Character\YJCharacter.h

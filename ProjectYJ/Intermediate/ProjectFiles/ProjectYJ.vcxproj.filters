@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\ProjectYJ.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{4D185269-D6E1-4F57-A0AD-F1F4021EB6B1}</UniqueIdentifier>
+      <UniqueIdentifier>{949396D0-3B1F-4714-99CA-6B6E9AFA3326}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ProjectYJ.Target.cs">
       <Filter>Source</Filter>
@@ -11,9 +11,10 @@
     <None Include="..\..\Source\ProjectYJEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\AssetsvilleTown.png" />
     <None Include="..\..\Scanned3DPeoplePack.png" />
     <Filter Include="Config">
-      <UniqueIdentifier>{7394D77F-FD46-4FAD-AB14-47773025890C}</UniqueIdentifier>
+      <UniqueIdentifier>{FAE08E8F-622A-4D05-8E8D-19447D5C7B38}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -31,7 +32,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\ProjectYJ">
-      <UniqueIdentifier>{D142A0CB-5592-48FC-BCBF-9C7E62F558C1}</UniqueIdentifier>
+      <UniqueIdentifier>{4A708E13-5BC7-43C2-91AC-091348C18D73}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ProjectYJ\ProjectYJ.Build.cs">
       <Filter>Source\ProjectYJ</Filter>
@@ -42,20 +43,29 @@
     <ClInclude Include="..\..\Source\ProjectYJ\ProjectYJ.h">
       <Filter>Source\ProjectYJ</Filter>
     </ClInclude>
-    <Filter Include="Source\ProjectYJ\Actor">
-      <UniqueIdentifier>{89CFA088-36ED-4DA5-94F6-9C8F6D7F3B81}</UniqueIdentifier>
+    <Filter Include="Source\ProjectYJ\Character">
+      <UniqueIdentifier>{1E7F9C25-F411-4EEC-BDD5-DAB3220AC263}</UniqueIdentifier>
     </Filter>
-    <ClCompile Include="..\..\Source\ProjectYJ\Actor\ProjectYJCharacter.cpp">
-      <Filter>Source\ProjectYJ\Actor</Filter>
+    <ClCompile Include="..\..\Source\ProjectYJ\Character\YJCharacter.cpp">
+      <Filter>Source\ProjectYJ\Character</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\ProjectYJ\Actor\ProjectYJCharacter.h">
-      <Filter>Source\ProjectYJ\Actor</Filter>
+    <ClInclude Include="..\..\Source\ProjectYJ\Character\YJCharacter.h">
+      <Filter>Source\ProjectYJ\Character</Filter>
     </ClInclude>
     <Filter Include="Source\ProjectYJ\Framework">
-      <UniqueIdentifier>{DDD0BFF7-B682-4C46-A7AB-169C378A6967}</UniqueIdentifier>
+      <UniqueIdentifier>{C276EABB-539F-4FD9-935A-05596BDE9204}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source\ProjectYJ\Framework\Actor">
+      <UniqueIdentifier>{1AE5B583-E1F2-42A5-93AB-E927B9CEC800}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ProjectYJ\Framework\Actor\ProjectYJCharacter.cpp">
+      <Filter>Source\ProjectYJ\Framework\Actor</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectYJ\Framework\Actor\ProjectYJCharacter.h">
+      <Filter>Source\ProjectYJ\Framework\Actor</Filter>
+    </ClInclude>
     <Filter Include="Source\ProjectYJ\Framework\GameMode">
-      <UniqueIdentifier>{2243710D-E716-46A6-8F46-FD62AC555B95}</UniqueIdentifier>
+      <UniqueIdentifier>{D70B75C2-D26F-4643-BF9F-0BBC789A709D}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\ProjectYJ\Framework\GameMode\ProjectYJGameMode.cpp">
       <Filter>Source\ProjectYJ\Framework\GameMode</Filter>
@@ -64,39 +74,39 @@
       <Filter>Source\ProjectYJ\Framework\GameMode</Filter>
     </ClInclude>
     <Filter Include="Source\ProjectYJ\Framework\Viewport">
-      <UniqueIdentifier>{E8BCF461-2BC9-4DE6-8BD4-3C35C64B5F12}</UniqueIdentifier>
+      <UniqueIdentifier>{92C1825A-44E0-41A3-BE60-E7060B692713}</UniqueIdentifier>
     </Filter>
-    <ClCompile Include="..\..\Source\ProjectYJ\Framework\Viewport\CustomGameViewportClient.cpp">
+    <ClCompile Include="..\..\Source\ProjectYJ\Framework\Viewport\YJGameViewportClient.cpp">
       <Filter>Source\ProjectYJ\Framework\Viewport</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\ProjectYJ\Framework\Viewport\CustomGameViewportClient.h">
+    <ClInclude Include="..\..\Source\ProjectYJ\Framework\Viewport\YJGameViewportClient.h">
       <Filter>Source\ProjectYJ\Framework\Viewport</Filter>
     </ClInclude>
     <Filter Include="Source\ProjectYJ\System">
-      <UniqueIdentifier>{B2760FBC-C63C-4B59-90AF-8216A54863F3}</UniqueIdentifier>
+      <UniqueIdentifier>{430317C6-980D-44F5-B7F6-C73B84610BA3}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source\ProjectYJ\System\AssetManager">
-      <UniqueIdentifier>{4FF6D04C-74AB-4697-B518-8909C42E0257}</UniqueIdentifier>
+      <UniqueIdentifier>{AF97C383-0F8F-44B2-9EDE-2141C3C7FCA8}</UniqueIdentifier>
     </Filter>
-    <ClCompile Include="..\..\Source\ProjectYJ\System\AssetManager\CustomAssetManager.cpp">
+    <ClCompile Include="..\..\Source\ProjectYJ\System\AssetManager\YJAssetManager.cpp">
       <Filter>Source\ProjectYJ\System\AssetManager</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\ProjectYJ\System\AssetManager\CustomAssetManager.h">
+    <ClInclude Include="..\..\Source\ProjectYJ\System\AssetManager\YJAssetManager.h">
       <Filter>Source\ProjectYJ\System\AssetManager</Filter>
     </ClInclude>
     <Filter Include="Source\ProjectYJ\System\SignificanceManager">
-      <UniqueIdentifier>{10C3048D-6C30-48A3-8DDB-82D59FBE38FE}</UniqueIdentifier>
+      <UniqueIdentifier>{73815461-9743-4FB3-8692-49B7AF022102}</UniqueIdentifier>
     </Filter>
-    <ClCompile Include="..\..\Source\ProjectYJ\System\SignificanceManager\CustomSignificanceManager.cpp">
-      <Filter>Source\ProjectYJ\System\SignificanceManager</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\ProjectYJ\System\SignificanceManager\CustomSignificanceManager.h">
-      <Filter>Source\ProjectYJ\System\SignificanceManager</Filter>
-    </ClInclude>
     <ClCompile Include="..\..\Source\ProjectYJ\System\SignificanceManager\SignificanceManagerSetting.cpp">
       <Filter>Source\ProjectYJ\System\SignificanceManager</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\ProjectYJ\System\SignificanceManager\SignificanceManagerSetting.h">
+      <Filter>Source\ProjectYJ\System\SignificanceManager</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectYJ\System\SignificanceManager\YJSignificanceManager.cpp">
+      <Filter>Source\ProjectYJ\System\SignificanceManager</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectYJ\System\SignificanceManager\YJSignificanceManager.h">
       <Filter>Source\ProjectYJ\System\SignificanceManager</Filter>
     </ClInclude>
   </ItemGroup>
