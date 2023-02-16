@@ -134,8 +134,9 @@ private:
 	int32 m_HeadActiveObjectIndex;
 	int32 m_TailActiveObjectIndex;
 
+	// 매 업데이트마다 쓰이는 절두체
 	FConvexVolume m_Frustum;
 
-	UPROPERTY()
-		USignificanceManagerSetting* m_SignificanceManagerSetting;
+	// 시그니피컨스 매니저 세팅
+	USignificanceManagerSetting* m_SignificanceManagerSetting;
 };

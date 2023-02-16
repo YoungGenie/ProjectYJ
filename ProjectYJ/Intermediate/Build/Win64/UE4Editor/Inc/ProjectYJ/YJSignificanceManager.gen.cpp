@@ -17,7 +17,6 @@ void EmptyLinkFunctionForGeneratedCodeYJSignificanceManager() {}
 	PROJECTYJ_API UClass* Z_Construct_UClass_UYJSignificanceManager();
 	SIGNIFICANCEMANAGER_API UClass* Z_Construct_UClass_USignificanceManager();
 	UPackage* Z_Construct_UPackage__Script_ProjectYJ();
-	PROJECTYJ_API UClass* Z_Construct_UClass_USignificanceManagerSetting_NoRegister();
 // End Cross Module References
 	void UYJSignificanceManager::StaticRegisterNativesUYJSignificanceManager()
 	{
@@ -32,11 +31,6 @@ void EmptyLinkFunctionForGeneratedCodeYJSignificanceManager() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_m_SignificanceManagerSetting_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_m_SignificanceManagerSetting;
-		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
@@ -50,15 +44,6 @@ void EmptyLinkFunctionForGeneratedCodeYJSignificanceManager() {}
 		{ "ModuleRelativePath", "System/SignificanceManager/YJSignificanceManager.h" },
 	};
 #endif
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UYJSignificanceManager_Statics::NewProp_m_SignificanceManagerSetting_MetaData[] = {
-		{ "ModuleRelativePath", "System/SignificanceManager/YJSignificanceManager.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UYJSignificanceManager_Statics::NewProp_m_SignificanceManagerSetting = { "m_SignificanceManagerSetting", nullptr, (EPropertyFlags)0x0040000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UYJSignificanceManager, m_SignificanceManagerSetting), Z_Construct_UClass_USignificanceManagerSetting_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UYJSignificanceManager_Statics::NewProp_m_SignificanceManagerSetting_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UYJSignificanceManager_Statics::NewProp_m_SignificanceManagerSetting_MetaData)) };
-	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UYJSignificanceManager_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UYJSignificanceManager_Statics::NewProp_m_SignificanceManagerSetting,
-	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UYJSignificanceManager_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<UYJSignificanceManager>::IsAbstract,
 	};
@@ -68,11 +53,11 @@ void EmptyLinkFunctionForGeneratedCodeYJSignificanceManager() {}
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		nullptr,
-		Z_Construct_UClass_UYJSignificanceManager_Statics::PropPointers,
+		nullptr,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
 		0,
-		UE_ARRAY_COUNT(Z_Construct_UClass_UYJSignificanceManager_Statics::PropPointers),
+		0,
 		0,
 		0x001000A6u,
 		METADATA_PARAMS(Z_Construct_UClass_UYJSignificanceManager_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_UYJSignificanceManager_Statics::Class_MetaDataParams))
@@ -86,7 +71,7 @@ void EmptyLinkFunctionForGeneratedCodeYJSignificanceManager() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UYJSignificanceManager, 414263471);
+	IMPLEMENT_CLASS(UYJSignificanceManager, 1630945738);
 	template<> PROJECTYJ_API UClass* StaticClass<UYJSignificanceManager>()
 	{
 		return UYJSignificanceManager::StaticClass();

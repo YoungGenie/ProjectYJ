@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\ProjectYJ.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{949396D0-3B1F-4714-99CA-6B6E9AFA3326}</UniqueIdentifier>
+      <UniqueIdentifier>{BF91A0C3-143C-43C6-9506-3B6E1F609AC6}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ProjectYJ.Target.cs">
       <Filter>Source</Filter>
@@ -14,7 +14,7 @@
     <None Include="..\..\AssetsvilleTown.png" />
     <None Include="..\..\Scanned3DPeoplePack.png" />
     <Filter Include="Config">
-      <UniqueIdentifier>{FAE08E8F-622A-4D05-8E8D-19447D5C7B38}</UniqueIdentifier>
+      <UniqueIdentifier>{43CB7A41-F515-489F-92DE-275B1A743230}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -32,7 +32,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\ProjectYJ">
-      <UniqueIdentifier>{4A708E13-5BC7-43C2-91AC-091348C18D73}</UniqueIdentifier>
+      <UniqueIdentifier>{FA9F555F-2B5D-4648-9DA3-53343557F629}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ProjectYJ\ProjectYJ.Build.cs">
       <Filter>Source\ProjectYJ</Filter>
@@ -43,8 +43,26 @@
     <ClInclude Include="..\..\Source\ProjectYJ\ProjectYJ.h">
       <Filter>Source\ProjectYJ</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectYJ\YJGameInstance.cpp">
+      <Filter>Source\ProjectYJ</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectYJ\YJGameInstance.h">
+      <Filter>Source\ProjectYJ</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectYJ\YJGameUISystem.cpp">
+      <Filter>Source\ProjectYJ</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectYJ\YJGameUISystem.h">
+      <Filter>Source\ProjectYJ</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectYJ\YJSpawnVolume.cpp">
+      <Filter>Source\ProjectYJ</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectYJ\YJSpawnVolume.h">
+      <Filter>Source\ProjectYJ</Filter>
+    </ClInclude>
     <Filter Include="Source\ProjectYJ\Character">
-      <UniqueIdentifier>{1E7F9C25-F411-4EEC-BDD5-DAB3220AC263}</UniqueIdentifier>
+      <UniqueIdentifier>{BCF9AAD2-A88E-4C5F-B3F9-8827F42DBD17}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\ProjectYJ\Character\YJCharacter.cpp">
       <Filter>Source\ProjectYJ\Character</Filter>
@@ -53,10 +71,10 @@
       <Filter>Source\ProjectYJ\Character</Filter>
     </ClInclude>
     <Filter Include="Source\ProjectYJ\Framework">
-      <UniqueIdentifier>{C276EABB-539F-4FD9-935A-05596BDE9204}</UniqueIdentifier>
+      <UniqueIdentifier>{0D3A6FB2-2B6C-4FA4-9740-DDC18B80FC88}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source\ProjectYJ\Framework\Actor">
-      <UniqueIdentifier>{1AE5B583-E1F2-42A5-93AB-E927B9CEC800}</UniqueIdentifier>
+      <UniqueIdentifier>{FC4C6D47-9C47-4347-8823-E3EFFBCAD0C8}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\ProjectYJ\Framework\Actor\ProjectYJCharacter.cpp">
       <Filter>Source\ProjectYJ\Framework\Actor</Filter>
@@ -65,7 +83,7 @@
       <Filter>Source\ProjectYJ\Framework\Actor</Filter>
     </ClInclude>
     <Filter Include="Source\ProjectYJ\Framework\GameMode">
-      <UniqueIdentifier>{D70B75C2-D26F-4643-BF9F-0BBC789A709D}</UniqueIdentifier>
+      <UniqueIdentifier>{1434254B-7589-4116-8FDB-C2C944173D2E}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\ProjectYJ\Framework\GameMode\ProjectYJGameMode.cpp">
       <Filter>Source\ProjectYJ\Framework\GameMode</Filter>
@@ -74,7 +92,7 @@
       <Filter>Source\ProjectYJ\Framework\GameMode</Filter>
     </ClInclude>
     <Filter Include="Source\ProjectYJ\Framework\Viewport">
-      <UniqueIdentifier>{92C1825A-44E0-41A3-BE60-E7060B692713}</UniqueIdentifier>
+      <UniqueIdentifier>{3DA30A4F-2550-4D42-9F4B-621562CDED8A}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\ProjectYJ\Framework\Viewport\YJGameViewportClient.cpp">
       <Filter>Source\ProjectYJ\Framework\Viewport</Filter>
@@ -83,10 +101,10 @@
       <Filter>Source\ProjectYJ\Framework\Viewport</Filter>
     </ClInclude>
     <Filter Include="Source\ProjectYJ\System">
-      <UniqueIdentifier>{430317C6-980D-44F5-B7F6-C73B84610BA3}</UniqueIdentifier>
+      <UniqueIdentifier>{98491AAD-1BD3-4508-8117-5E82E7F7F9DF}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source\ProjectYJ\System\AssetManager">
-      <UniqueIdentifier>{AF97C383-0F8F-44B2-9EDE-2141C3C7FCA8}</UniqueIdentifier>
+      <UniqueIdentifier>{2822D3BB-4E8C-4692-9659-5204DAC177D8}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\ProjectYJ\System\AssetManager\YJAssetManager.cpp">
       <Filter>Source\ProjectYJ\System\AssetManager</Filter>
@@ -95,7 +113,7 @@
       <Filter>Source\ProjectYJ\System\AssetManager</Filter>
     </ClInclude>
     <Filter Include="Source\ProjectYJ\System\SignificanceManager">
-      <UniqueIdentifier>{73815461-9743-4FB3-8692-49B7AF022102}</UniqueIdentifier>
+      <UniqueIdentifier>{A9FC701B-A103-4550-9FCB-63CC3774F15D}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\ProjectYJ\System\SignificanceManager\SignificanceManagerSetting.cpp">
       <Filter>Source\ProjectYJ\System\SignificanceManager</Filter>
