@@ -7,16 +7,33 @@
 
 void AYJCharacter::BeginPlay()
 {
+	Super::BeginPlay();
+
 	RegisterAtSignificanceManager();
 
-	Super::BeginPlay();
+	if (m_bEnableUpdateRateOptimizations == true && m_SkippedFramesByLOD.Num() != 0)
+	{
+		USkeletalMeshComponent* MeshComponent = GetMesh();
+		if (MeshComponent != nullptr)
+		{
+			MeshComponent->bEnableUpdateRateOptimizations = m_bEnableUpdateRateOptimizations;
+
+			MeshComponent->AnimUpdateRateParams->bShouldUseLodMap = true;
+			MeshComponent->AnimUpdateRateParams->bInterpolateSkippedFrames = m_bInterpolateSkippedFrames;
+
+			for (int i = 0; i < m_SkippedFramesByLOD.Num(); i++)
+			{
+				MeshComponent->AnimUpdateRateParams->LODToFrameSkipMap.Add(i, m_SkippedFramesByLOD[i]);
+			}
+		}
+	}
 }
 
 void AYJCharacter::EndPlay(const EEndPlayReason::Type EndPlayReason)
 {
-	UnregisterAtSignificanceManager();
-
 	Super::EndPlay(EndPlayReason);
+
+	UnregisterAtSignificanceManager();
 }
 
 void AYJCharacter::RegisterAtSignificanceManager()

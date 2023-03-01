@@ -21,4 +21,17 @@ public:
 private:
 	void RegisterAtSignificanceManager();
 	void UnregisterAtSignificanceManager();
+
+public:
+	// Whether to apply Animation URO
+	UPROPERTY(EditAnywhere, Category = URO)
+		bool m_bEnableUpdateRateOptimizations;
+
+	// Whether to interpolate between skipped frames
+	UPROPERTY(EditAnywhere, Category = URO)
+		bool m_bInterpolateSkippedFrames;
+
+	// Number of frames to skip based on LOD
+	UPROPERTY(EditAnywhere, Category = URO)
+		TArray<int32> m_SkippedFramesByLOD;
 };

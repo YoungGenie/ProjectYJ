@@ -66,9 +66,9 @@ void EmptyLinkFunctionForGeneratedCodeYJSpawnVolume() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AYJSpawnVolume_Statics::NewProp_m_SpawnClasses_MetaData[] = {
 		{ "Category", "YJSpawnVolume" },
-		{ "Comment", "// ?????? ???\xcd\xb5??? ????\n" },
+		{ "Comment", "// ?????? ???? \xc5\xac???? ????\n" },
 		{ "ModuleRelativePath", "YJSpawnVolume.h" },
-		{ "ToolTip", "?????? ???\xcd\xb5??? ????" },
+		{ "ToolTip", "?????? ???? \xc5\xac???? ????" },
 	};
 #endif
 	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AYJSpawnVolume_Statics::NewProp_m_SpawnClasses = { "m_SpawnClasses", nullptr, (EPropertyFlags)0x0044000000000001, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AYJSpawnVolume, m_SpawnClasses), EArrayPropertyFlags::None, METADATA_PARAMS(Z_Construct_UClass_AYJSpawnVolume_Statics::NewProp_m_SpawnClasses_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AYJSpawnVolume_Statics::NewProp_m_SpawnClasses_MetaData)) };
@@ -122,7 +122,7 @@ void EmptyLinkFunctionForGeneratedCodeYJSpawnVolume() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AYJSpawnVolume, 2458139673);
+	IMPLEMENT_CLASS(AYJSpawnVolume, 909786517);
 	template<> PROJECTYJ_API UClass* StaticClass<AYJSpawnVolume>()
 	{
 		return AYJSpawnVolume::StaticClass();
