@@ -1,0 +1,8 @@
+{
+	"BuildId": "17155196",
+	"Modules": 
+	{
+		"VertexAnimToolset": "UE4Editor-VertexAnimToolset.dll",
+		"VertexAnimToolsetEditor": "UE4Editor-VertexAnimToolsetEditor.dll"
+	}
+}

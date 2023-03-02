@@ -65,9 +65,9 @@ void EmptyLinkFunctionForGeneratedCodeYJCharacter() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AYJCharacter_Statics::NewProp_m_bEnableUpdateRateOptimizations_MetaData[] = {
 		{ "Category", "URO" },
-		{ "Comment", "// Animation URO ???? ????\n" },
+		{ "Comment", "// Whether to apply Animation URO\n" },
 		{ "ModuleRelativePath", "Character/YJCharacter.h" },
-		{ "ToolTip", "Animation URO ???? ????" },
+		{ "ToolTip", "Whether to apply Animation URO" },
 	};
 #endif
 	void Z_Construct_UClass_AYJCharacter_Statics::NewProp_m_bEnableUpdateRateOptimizations_SetBit(void* Obj)
@@ -78,9 +78,9 @@ void EmptyLinkFunctionForGeneratedCodeYJCharacter() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AYJCharacter_Statics::NewProp_m_bInterpolateSkippedFrames_MetaData[] = {
 		{ "Category", "URO" },
-		{ "Comment", "// ??\xc5\xb5?? ?????? ?????? ???? ????\n" },
+		{ "Comment", "// Whether to interpolate between skipped frames\n" },
 		{ "ModuleRelativePath", "Character/YJCharacter.h" },
-		{ "ToolTip", "??\xc5\xb5?? ?????? ?????? ???? ????" },
+		{ "ToolTip", "Whether to interpolate between skipped frames" },
 	};
 #endif
 	void Z_Construct_UClass_AYJCharacter_Statics::NewProp_m_bInterpolateSkippedFrames_SetBit(void* Obj)
@@ -92,9 +92,9 @@ void EmptyLinkFunctionForGeneratedCodeYJCharacter() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AYJCharacter_Statics::NewProp_m_SkippedFramesByLOD_MetaData[] = {
 		{ "Category", "URO" },
-		{ "Comment", "// LOD?? ???? ??\xc5\xb5?? ?????? ??\n" },
+		{ "Comment", "// Number of frames to skip based on LOD\n" },
 		{ "ModuleRelativePath", "Character/YJCharacter.h" },
-		{ "ToolTip", "LOD?? ???? ??\xc5\xb5?? ?????? ??" },
+		{ "ToolTip", "Number of frames to skip based on LOD" },
 	};
 #endif
 	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AYJCharacter_Statics::NewProp_m_SkippedFramesByLOD = { "m_SkippedFramesByLOD", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AYJCharacter, m_SkippedFramesByLOD), EArrayPropertyFlags::None, METADATA_PARAMS(Z_Construct_UClass_AYJCharacter_Statics::NewProp_m_SkippedFramesByLOD_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AYJCharacter_Statics::NewProp_m_SkippedFramesByLOD_MetaData)) };
@@ -131,7 +131,7 @@ void EmptyLinkFunctionForGeneratedCodeYJCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AYJCharacter, 3659521768);
+	IMPLEMENT_CLASS(AYJCharacter, 3762433079);
 	template<> PROJECTYJ_API UClass* StaticClass<AYJCharacter>()
 	{
 		return AYJCharacter::StaticClass();

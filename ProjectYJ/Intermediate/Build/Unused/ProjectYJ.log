@@ -1,3 +1,4 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (E:\Github\ProjectYJ).
+  Invalidating makefile for ProjectYJEditor (VertexAnimToolset.uplugin modified)
   Target is up to date
-  Total execution time: 0.59 seconds
+  Total execution time: 2.21 seconds
