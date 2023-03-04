@@ -241,6 +241,10 @@
 /I Runtime\AugmentedReality\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\MRMesh
 /I Runtime\MRMesh\Public
+/I E:\Github\ProjectYJ\ProjectYJ\Plugins\VertexAnimToolset\Intermediate\Build\Win64\UE4Editor\Inc\VertexAnimToolset
+/I E:\Github\ProjectYJ\ProjectYJ\Plugins\VertexAnimToolset\Source
+/I E:\Github\ProjectYJ\ProjectYJ\Plugins\VertexAnimToolset\Source\VertexAnimToolset\Public
+/I E:\Github\ProjectYJ\ProjectYJ\Plugins\VertexAnimToolset\Source\VertexAnimToolsetEditor\Public
 /I ThirdParty\PhysX3\PxShared\include
 /I ThirdParty\PhysX3\PxShared\include\cudamanager
 /I ThirdParty\PhysX3\PxShared\include\filebuf

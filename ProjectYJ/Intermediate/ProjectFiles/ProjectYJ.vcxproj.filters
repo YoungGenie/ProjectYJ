@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\ProjectYJ.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{A0221AC1-0507-44F4-9016-393849481697}</UniqueIdentifier>
+      <UniqueIdentifier>{23694A53-065A-4986-B0B9-8210487D68A9}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ProjectYJ.Target.cs">
       <Filter>Source</Filter>
@@ -14,7 +14,7 @@
     <None Include="..\..\AssetsvilleTown.png" />
     <None Include="..\..\Scanned3DPeoplePack.png" />
     <Filter Include="Config">
-      <UniqueIdentifier>{6776D8F7-0C62-4E4F-932B-B9CC067BE165}</UniqueIdentifier>
+      <UniqueIdentifier>{3F05B880-6BBA-4D5F-9989-6F8BC9C75AC3}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -32,22 +32,22 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Plugins">
-      <UniqueIdentifier>{762CAE91-C0C3-4DDD-9295-5BE8BE8D4A24}</UniqueIdentifier>
+      <UniqueIdentifier>{02A1A31B-D658-46F2-BC44-B5BB357EBD2A}</UniqueIdentifier>
     </Filter>
     <Filter Include="Plugins\VertexAnimToolset">
-      <UniqueIdentifier>{D10117A3-426E-4079-89AF-618758AACD7C}</UniqueIdentifier>
+      <UniqueIdentifier>{4AFFDC5B-29EA-4676-B489-154ADCF91489}</UniqueIdentifier>
     </Filter>
     <Filter Include="Plugins\VertexAnimToolset\Source">
-      <UniqueIdentifier>{F806281A-0042-494D-8853-5D29688EF376}</UniqueIdentifier>
+      <UniqueIdentifier>{08C98446-911C-44DC-9E4F-646E752BB4B1}</UniqueIdentifier>
     </Filter>
     <Filter Include="Plugins\VertexAnimToolset\Source\VertexAnimToolset">
-      <UniqueIdentifier>{E6896E5F-BE94-4DF3-939C-7EB2B8578D5A}</UniqueIdentifier>
+      <UniqueIdentifier>{869E7EFC-A34F-47A6-8F5D-D164527A710C}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\VertexAnimToolset\Source\VertexAnimToolset\VertexAnimToolset.Build.cs">
       <Filter>Plugins\VertexAnimToolset\Source\VertexAnimToolset</Filter>
     </None>
     <Filter Include="Plugins\VertexAnimToolset\Source\VertexAnimToolset\Private">
-      <UniqueIdentifier>{4EC5514D-4A7D-4C0D-BE97-BB24E273102F}</UniqueIdentifier>
+      <UniqueIdentifier>{52A9E11C-8375-4BF8-B87C-7A820059286D}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Plugins\VertexAnimToolset\Source\VertexAnimToolset\Private\VertexAnimProfile.cpp">
       <Filter>Plugins\VertexAnimToolset\Source\VertexAnimToolset\Private</Filter>
@@ -56,7 +56,7 @@
       <Filter>Plugins\VertexAnimToolset\Source\VertexAnimToolset\Private</Filter>
     </ClCompile>
     <Filter Include="Plugins\VertexAnimToolset\Source\VertexAnimToolset\Public">
-      <UniqueIdentifier>{7E9041CB-E6BB-4329-99E9-1DC0AF1BA701}</UniqueIdentifier>
+      <UniqueIdentifier>{9E8797F0-1810-40C9-B914-BE7BB5D45D3C}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Plugins\VertexAnimToolset\Source\VertexAnimToolset\Public\VertexAnimProfile.h">
       <Filter>Plugins\VertexAnimToolset\Source\VertexAnimToolset\Public</Filter>
@@ -68,19 +68,19 @@
       <Filter>Plugins\VertexAnimToolset</Filter>
     </None>
     <Filter Include="Plugins\VertexAnimToolset\Resources">
-      <UniqueIdentifier>{763A57F2-4B15-41DA-845F-DA24F6441F08}</UniqueIdentifier>
+      <UniqueIdentifier>{2A4B73C4-678C-4B1A-859F-9501B4D4495B}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\VertexAnimToolset\Resources\Icon128.png">
       <Filter>Plugins\VertexAnimToolset\Resources</Filter>
     </None>
     <Filter Include="Plugins\VertexAnimToolset\Source\VertexAnimToolsetEditor">
-      <UniqueIdentifier>{1751FBA5-B868-49CB-8F9A-3F02FF71AA1F}</UniqueIdentifier>
+      <UniqueIdentifier>{CB0CAE33-472D-4FF8-A919-E853C9A2F12A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\VertexAnimToolset\Source\VertexAnimToolsetEditor\VertexAnimToolsetEditor.Build.cs">
       <Filter>Plugins\VertexAnimToolset\Source\VertexAnimToolsetEditor</Filter>
     </None>
     <Filter Include="Plugins\VertexAnimToolset\Source\VertexAnimToolsetEditor\Private">
-      <UniqueIdentifier>{9C078988-263C-4C1C-B698-F254EF22210B}</UniqueIdentifier>
+      <UniqueIdentifier>{F482F0F4-6E62-43E6-A26A-49F15A07B791}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Plugins\VertexAnimToolset\Source\VertexAnimToolsetEditor\Private\VATEditorUtils.cpp">
       <Filter>Plugins\VertexAnimToolset\Source\VertexAnimToolsetEditor\Private</Filter>
@@ -92,7 +92,7 @@
       <Filter>Plugins\VertexAnimToolset\Source\VertexAnimToolsetEditor\Private</Filter>
     </ClCompile>
     <Filter Include="Plugins\VertexAnimToolset\Source\VertexAnimToolsetEditor\Public">
-      <UniqueIdentifier>{FA35A40E-AD59-480D-861D-EABAFE32215B}</UniqueIdentifier>
+      <UniqueIdentifier>{D6286AB1-82FB-40D7-8DA2-BC5F0139ACA3}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Plugins\VertexAnimToolset\Source\VertexAnimToolsetEditor\Public\VATEditorUtils.h">
       <Filter>Plugins\VertexAnimToolset\Source\VertexAnimToolsetEditor\Public</Filter>
@@ -104,7 +104,7 @@
       <Filter>Plugins\VertexAnimToolset\Source\VertexAnimToolsetEditor\Public</Filter>
     </ClInclude>
     <Filter Include="Source\ProjectYJ">
-      <UniqueIdentifier>{CF2EFDE4-4279-4CA9-BC2E-906FA181C513}</UniqueIdentifier>
+      <UniqueIdentifier>{AFA49286-7EB1-4FE7-AA66-BE3A868856E9}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ProjectYJ\ProjectYJ.Build.cs">
       <Filter>Source\ProjectYJ</Filter>
@@ -134,7 +134,7 @@
       <Filter>Source\ProjectYJ</Filter>
     </ClInclude>
     <Filter Include="Source\ProjectYJ\Character">
-      <UniqueIdentifier>{BA1EE161-5DEA-42ED-9BE4-5884FFDDF86C}</UniqueIdentifier>
+      <UniqueIdentifier>{C8BADC27-D7F4-4594-8D1F-12C72D5F7102}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\ProjectYJ\Character\YJCharacter.cpp">
       <Filter>Source\ProjectYJ\Character</Filter>
@@ -143,10 +143,10 @@
       <Filter>Source\ProjectYJ\Character</Filter>
     </ClInclude>
     <Filter Include="Source\ProjectYJ\Framework">
-      <UniqueIdentifier>{0707327A-0EEE-4902-B653-E490BEE9F976}</UniqueIdentifier>
+      <UniqueIdentifier>{16B7250B-38C1-4FEA-95A9-C616F3A6B8B0}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source\ProjectYJ\Framework\Actor">
-      <UniqueIdentifier>{12AA2864-B482-4E16-AC33-73B8048BA75B}</UniqueIdentifier>
+      <UniqueIdentifier>{1268E6BE-51FE-4D68-B93A-D8F1E30D20AD}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\ProjectYJ\Framework\Actor\ProjectYJCharacter.cpp">
       <Filter>Source\ProjectYJ\Framework\Actor</Filter>
@@ -155,7 +155,7 @@
       <Filter>Source\ProjectYJ\Framework\Actor</Filter>
     </ClInclude>
     <Filter Include="Source\ProjectYJ\Framework\GameMode">
-      <UniqueIdentifier>{D7DA903A-0098-4388-9EC0-C839A0928AF5}</UniqueIdentifier>
+      <UniqueIdentifier>{EB23370A-B2FF-4823-A449-BEE74D9CDCC3}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\ProjectYJ\Framework\GameMode\ProjectYJGameMode.cpp">
       <Filter>Source\ProjectYJ\Framework\GameMode</Filter>
@@ -164,7 +164,7 @@
       <Filter>Source\ProjectYJ\Framework\GameMode</Filter>
     </ClInclude>
     <Filter Include="Source\ProjectYJ\Framework\Viewport">
-      <UniqueIdentifier>{86B111B9-2346-4520-896C-C53A2B2DBA73}</UniqueIdentifier>
+      <UniqueIdentifier>{DAAF17C5-EF41-4C3E-AA35-ED787C88DAC3}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\ProjectYJ\Framework\Viewport\YJGameViewportClient.cpp">
       <Filter>Source\ProjectYJ\Framework\Viewport</Filter>
@@ -172,11 +172,20 @@
     <ClInclude Include="..\..\Source\ProjectYJ\Framework\Viewport\YJGameViewportClient.h">
       <Filter>Source\ProjectYJ\Framework\Viewport</Filter>
     </ClInclude>
+    <Filter Include="Source\ProjectYJ\FunctionLibrary">
+      <UniqueIdentifier>{6814A476-B0B7-42D0-B797-F57C9218CF26}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ProjectYJ\FunctionLibrary\VertexAnimFunctionLibrary.cpp">
+      <Filter>Source\ProjectYJ\FunctionLibrary</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectYJ\FunctionLibrary\VertexAnimFunctionLibrary.h">
+      <Filter>Source\ProjectYJ\FunctionLibrary</Filter>
+    </ClInclude>
     <Filter Include="Source\ProjectYJ\System">
-      <UniqueIdentifier>{54892E4B-FFD1-4558-9AEE-C7E87FA48E8B}</UniqueIdentifier>
+      <UniqueIdentifier>{4A1D317A-014A-49B7-953C-266ECD2D13FE}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source\ProjectYJ\System\AssetManager">
-      <UniqueIdentifier>{BC06267E-F2E9-4A09-ABC6-D3C44FEDD3C2}</UniqueIdentifier>
+      <UniqueIdentifier>{4C9E57E3-7E31-4331-9400-5E7F36FB82BF}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\ProjectYJ\System\AssetManager\YJAssetManager.cpp">
       <Filter>Source\ProjectYJ\System\AssetManager</Filter>
@@ -185,7 +194,7 @@
       <Filter>Source\ProjectYJ\System\AssetManager</Filter>
     </ClInclude>
     <Filter Include="Source\ProjectYJ\System\SignificanceManager">
-      <UniqueIdentifier>{A9B591C2-9422-43E5-BF3E-93170E22081C}</UniqueIdentifier>
+      <UniqueIdentifier>{D8ECE39C-95AF-41E2-85A7-514D78FA99F6}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\ProjectYJ\System\SignificanceManager\SignificanceManagerSetting.cpp">
       <Filter>Source\ProjectYJ\System\SignificanceManager</Filter>
