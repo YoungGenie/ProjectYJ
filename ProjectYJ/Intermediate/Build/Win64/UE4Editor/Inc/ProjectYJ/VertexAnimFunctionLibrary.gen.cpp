@@ -26,9 +26,10 @@ void EmptyLinkFunctionForGeneratedCodeVertexAnimFunctionLibrary() {}
 	{
 		P_GET_OBJECT(UVertexAnimProfile,Z_Param_InVertexAnimProfile);
 		P_GET_OBJECT(USkeletalMesh,Z_Param_InSkeletalMesh);
+		P_GET_PROPERTY(FStrProperty,Z_Param_InResultPath);
 		P_FINISH;
 		P_NATIVE_BEGIN;
-		UVertexAnimFunctionLibrary::DoBake(Z_Param_InVertexAnimProfile,Z_Param_InSkeletalMesh);
+		UVertexAnimFunctionLibrary::DoBake(Z_Param_InVertexAnimProfile,Z_Param_InSkeletalMesh,Z_Param_InResultPath);
 		P_NATIVE_END;
 	}
 	DEFINE_FUNCTION(UVertexAnimFunctionLibrary::execSetDataAtProfile)
@@ -56,9 +57,14 @@ void EmptyLinkFunctionForGeneratedCodeVertexAnimFunctionLibrary() {}
 		{
 			UVertexAnimProfile* InVertexAnimProfile;
 			USkeletalMesh* InSkeletalMesh;
+			FString InResultPath;
 		};
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_InVertexAnimProfile;
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_InSkeletalMesh;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_InResultPath_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStrPropertyParams NewProp_InResultPath;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
@@ -67,9 +73,16 @@ void EmptyLinkFunctionForGeneratedCodeVertexAnimFunctionLibrary() {}
 	};
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UVertexAnimFunctionLibrary_DoBake_Statics::NewProp_InVertexAnimProfile = { "InVertexAnimProfile", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(VertexAnimFunctionLibrary_eventDoBake_Parms, InVertexAnimProfile), Z_Construct_UClass_UVertexAnimProfile_NoRegister, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UVertexAnimFunctionLibrary_DoBake_Statics::NewProp_InSkeletalMesh = { "InSkeletalMesh", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(VertexAnimFunctionLibrary_eventDoBake_Parms, InSkeletalMesh), Z_Construct_UClass_USkeletalMesh_NoRegister, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UVertexAnimFunctionLibrary_DoBake_Statics::NewProp_InResultPath_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif
+	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UVertexAnimFunctionLibrary_DoBake_Statics::NewProp_InResultPath = { "InResultPath", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(VertexAnimFunctionLibrary_eventDoBake_Parms, InResultPath), METADATA_PARAMS(Z_Construct_UFunction_UVertexAnimFunctionLibrary_DoBake_Statics::NewProp_InResultPath_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_UVertexAnimFunctionLibrary_DoBake_Statics::NewProp_InResultPath_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UVertexAnimFunctionLibrary_DoBake_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UVertexAnimFunctionLibrary_DoBake_Statics::NewProp_InVertexAnimProfile,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UVertexAnimFunctionLibrary_DoBake_Statics::NewProp_InSkeletalMesh,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UVertexAnimFunctionLibrary_DoBake_Statics::NewProp_InResultPath,
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UVertexAnimFunctionLibrary_DoBake_Statics::Function_MetaDataParams[] = {
@@ -147,7 +160,7 @@ void EmptyLinkFunctionForGeneratedCodeVertexAnimFunctionLibrary() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_ProjectYJ,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_UVertexAnimFunctionLibrary_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_UVertexAnimFunctionLibrary_DoBake, "DoBake" }, // 351799184
+		{ &Z_Construct_UFunction_UVertexAnimFunctionLibrary_DoBake, "DoBake" }, // 3683604238
 		{ &Z_Construct_UFunction_UVertexAnimFunctionLibrary_SetDataAtProfile, "SetDataAtProfile" }, // 1107211818
 	};
 #if WITH_METADATA
@@ -183,7 +196,7 @@ void EmptyLinkFunctionForGeneratedCodeVertexAnimFunctionLibrary() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UVertexAnimFunctionLibrary, 197451457);
+	IMPLEMENT_CLASS(UVertexAnimFunctionLibrary, 3357614312);
 	template<> PROJECTYJ_API UClass* StaticClass<UVertexAnimFunctionLibrary>()
 	{
 		return UVertexAnimFunctionLibrary::StaticClass();

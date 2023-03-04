@@ -32,14 +32,25 @@
 /wd4244
 /wd4838
 /I .
-/I ..\Plugins\Runtime\SignificanceManager\Intermediate\Build\Win64\UE4Editor\Inc\SignificanceManager
-/I ..\Plugins\Runtime\SignificanceManager\Source
-/I ..\Plugins\Runtime\SignificanceManager\Source\SignificanceManager\Public
-/I ..\Intermediate\Build\Win64\UE4Editor\Inc\CoreUObject
 /I Runtime
-/I Runtime\CoreUObject\Public
+/I Runtime\Projects\Public
 /I Runtime\TraceLog\Public
 /I Runtime\Core\Public
+/I Runtime\Json\Public
+/I Developer
+/I Developer\TargetPlatform\Public
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\AudioPlatformConfiguration
+/I Runtime\AudioPlatformConfiguration\Public
+/I Developer\DesktopPlatform\Public
+/I Runtime\Portal
+/I Runtime\Portal\LauncherPlatform\Public
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\MeshDescription
+/I Runtime\MeshDescription\Public
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\CoreUObject
+/I Runtime\CoreUObject\Public
+/I Developer\MeshDescriptionOperations\Public
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\StaticMeshDescription
+/I Runtime\StaticMeshDescription\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\Engine
 /I Runtime\Engine\Classes
 /I Runtime\Engine\Public
@@ -49,7 +60,6 @@
 /I Runtime\Net\Core\Public
 /I Runtime\ApplicationCore\Public
 /I Runtime\RHI\Public
-/I Runtime\Json\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\SlateCore
 /I Runtime\SlateCore\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\InputCore
@@ -87,12 +97,6 @@
 /I Runtime\PacketHandlers\PacketHandler\Classes
 /I Runtime\PacketHandlers\PacketHandler\Public
 /I Runtime\PacketHandlers\ReliabilityHandlerComponent\Public
-/I ..\Intermediate\Build\Win64\UE4Editor\Inc\AudioPlatformConfiguration
-/I Runtime\AudioPlatformConfiguration\Public
-/I ..\Intermediate\Build\Win64\UE4Editor\Inc\MeshDescription
-/I Runtime\MeshDescription\Public
-/I ..\Intermediate\Build\Win64\UE4Editor\Inc\StaticMeshDescription
-/I Runtime\StaticMeshDescription\Public
 /I Runtime\PakFile\Public
 /I Runtime\RSA\Public
 /I Runtime\NetworkReplayStreaming
@@ -118,10 +122,8 @@
 /I Developer\Android\AndroidDeviceDetection\Public\Interfaces
 /I Editor\UnrealEd\Classes
 /I Editor\UnrealEd\Public
-/I Developer
 /I Developer\DirectoryWatcher\Public
 /I Editor\Documentation\Public
-/I Runtime\Projects\Public
 /I Runtime\SandboxFile\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\EditorStyle
 /I Editor\EditorStyle\Public
@@ -153,7 +155,6 @@
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\AudioMixer
 /I Runtime\AudioMixer\Classes
 /I Runtime\AudioMixer\Public
-/I Developer\TargetPlatform\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\LevelEditor
 /I Editor\LevelEditor\Public
 /I Developer\Settings\Public
@@ -234,6 +235,10 @@
 /I Editor\Kismet\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\ClothingSystemRuntimeInterface
 /I Runtime\ClothingSystemRuntimeInterface\Public
+/I Runtime\RawMesh\Public
+/I ..\Plugins\Runtime\SignificanceManager\Intermediate\Build\Win64\UE4Editor\Inc\SignificanceManager
+/I ..\Plugins\Runtime\SignificanceManager\Source
+/I ..\Plugins\Runtime\SignificanceManager\Source\SignificanceManager\Public
 /I E:\Github\ProjectYJ\ProjectYJ\Intermediate\Build\Win64\UE4Editor\Inc\ProjectYJ
 /I E:\Github\ProjectYJ\ProjectYJ\Source
 /I E:\Github\ProjectYJ\ProjectYJ\Source\ProjectYJ
@@ -244,6 +249,7 @@
 /I E:\Github\ProjectYJ\ProjectYJ\Plugins\VertexAnimToolset\Intermediate\Build\Win64\UE4Editor\Inc\VertexAnimToolset
 /I E:\Github\ProjectYJ\ProjectYJ\Plugins\VertexAnimToolset\Source
 /I E:\Github\ProjectYJ\ProjectYJ\Plugins\VertexAnimToolset\Source\VertexAnimToolset\Public
+/I E:\Github\ProjectYJ\ProjectYJ\Plugins\VertexAnimToolset\Source\VertexAnimToolsetEditor\Public
 /I ThirdParty\PhysX3\PxShared\include
 /I ThirdParty\PhysX3\PxShared\include\cudamanager
 /I ThirdParty\PhysX3\PxShared\include\filebuf
@@ -273,9 +279,9 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"
-/FI"E:\Github\ProjectYJ\ProjectYJ\Intermediate\Build\Win64\ProjectYJEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Yu"E:\Github\ProjectYJ\ProjectYJ\Intermediate\Build\Win64\ProjectYJEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"E:\Github\ProjectYJ\ProjectYJ\Intermediate\Build\Win64\ProjectYJEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+/FI"E:\Github\ProjectYJ\ProjectYJ\Intermediate\Build\Win64\ProjectYJEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h"
+/Yu"E:\Github\ProjectYJ\ProjectYJ\Intermediate\Build\Win64\ProjectYJEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h"
+/Fp"E:\Github\ProjectYJ\ProjectYJ\Intermediate\Build\Win64\ProjectYJEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h.pch"
 "E:\Github\ProjectYJ\ProjectYJ\Source\ProjectYJ\FunctionLibrary\VertexAnimFunctionLibrary.cpp"
 /FI"E:\Github\ProjectYJ\ProjectYJ\Intermediate\Build\Win64\UE4Editor\Development\ProjectYJ\Definitions.ProjectYJ.h"
 /Fo"E:\Github\ProjectYJ\ProjectYJ\Intermediate\Build\Win64\UE4Editor\Development\ProjectYJ\VertexAnimFunctionLibrary.cpp.obj"

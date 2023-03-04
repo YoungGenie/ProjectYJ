@@ -8,8 +8,31 @@ public class ProjectYJ : ModuleRules
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 
-		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "HeadMountedDisplay", "VertexAnimToolset", "VertexAnimToolsetEditor" });
+		PublicDependencyModuleNames.AddRange(
+			new string[] 
+			{ 
+				"Core", 
+				"CoreUObject", 
+				"Engine", 
+				"InputCore", 
+				"HeadMountedDisplay", 
+				"RawMesh", 
+
+
+
+				"VertexAnimToolset", 
+				"VertexAnimToolsetEditor" 
+			}
+			);
 
 		PublicIncludePaths.AddRange(new string[] { ModuleDirectory, });
+
+		PrivateDependencyModuleNames.AddRange(
+			new string[]
+			{
+				"RenderCore",
+				// ... add private dependencies that you statically link with here ...	
+			}
+			);
 	}
 }

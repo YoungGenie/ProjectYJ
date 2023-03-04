@@ -1,24 +1,38 @@
 E:\Github\ProjectYJ\ProjectYJ\Intermediate\Build\Win64\UE4Editor\Development\ProjectYJ\Definitions.ProjectYJ.h
 E:\Github\ProjectYJ\ProjectYJ\Source\ProjectYJ\FunctionLibrary/VertexAnimFunctionLibrary.h
 E:\Github\ProjectYJ\ProjectYJ\Intermediate\Build\Win64\UE4Editor\Inc\ProjectYJ\VertexAnimFunctionLibrary.generated.h
-E:\Github\ProjectYJ\ProjectYJ\Plugins\VertexAnimToolset\Source\VertexAnimToolsetEditor\Public\VertexAnimUtils.h
-D:\Epic Games\UE_4.27\Engine\Source\Editor\PropertyEditor\Public\IDetailCustomization.h
-D:\Epic Games\UE_4.27\Engine\Source\Editor\ContentBrowser\Public\ContentBrowserDelegates.h
-D:\Epic Games\UE_4.27\Engine\Source\Runtime\Slate\Public\Widgets/SToolTip.h
-D:\Epic Games\UE_4.27\Engine\Source\Developer/AssetTools/Public/IAssetTypeActions.h
+D:\Epic Games\UE_4.27\Engine\Source\Editor\UnrealEd\Public\PackageTools.h
+D:\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd\PackageTools.generated.h
+D:\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Public\SkeletalRenderPublic.h
+D:\Epic Games\UE_4.27\Engine\Source\Runtime/Engine/Private/SkeletalRenderCPUSkin.h
+D:\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Public\Rendering/SkeletalMeshRenderData.h
+D:\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Public\Rendering/SkeletalMeshLODRenderData.h
+D:\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Public\Rendering/MultiSizeIndexContainer.h
+D:\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Public\Rendering/SkeletalMeshVertexBuffer.h
+D:\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Public\Rendering/SkeletalMeshDuplicatedVerticesBuffer.h
+D:\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Public\Rendering/SkeletalMeshVertexClothBuffer.h
+D:\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Public\Rendering/MorphTargetVertexInfoBuffers.h
+D:\Epic Games\UE_4.27\Engine\Source\Runtime\AssetRegistry\Public\AssetRegistryModule.h
+D:\Epic Games\UE_4.27\Engine\Source\Runtime\AssetRegistry\Public\AssetRegistry/AssetRegistryModule.h
+D:\Epic Games\UE_4.27\Engine\Source\Runtime\AssetRegistry\Public\AssetRegistry/IAssetRegistry.h
+D:\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\Misc/AssetRegistryInterface.h
+D:\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\AssetRegistry/ARFilter.h
+D:\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AssetRegistry\IAssetRegistry.generated.h
+D:\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Animation/AnimSingleNodeInstance.h
+D:\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AnimSingleNodeInstance.generated.h
+D:\Epic Games\UE_4.27\Engine\Source\Runtime\RawMesh\Public\RawMesh.h
+D:\Epic Games\UE_4.27\Engine\Source\Developer\AssetTools\Public\AssetToolsModule.h
+D:\Epic Games\UE_4.27\Engine\Source\Developer\AssetTools\Public\IAssetTools.h
+D:\Epic Games\UE_4.27\Engine\Source\Developer\AssetTools\Public\AssetTypeCategories.h
+D:\Epic Games\UE_4.27\Engine\Source\Developer\AssetTools\Public\IAssetTypeActions.h
 D:\Epic Games\UE_4.27\Engine\Source\Developer/Merge/Public/Merge.h
 D:\Epic Games\UE_4.27\Engine\Source\Editor\UnrealEd\Classes\ThumbnailRendering/ThumbnailManager.h
 D:\Epic Games\UE_4.27\Engine\Source\Editor\UnrealEd\Classes\ThumbnailRendering/ThumbnailRenderer.h
 D:\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd\ThumbnailRenderer.generated.h
 D:\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd\ThumbnailManager.generated.h
-D:\Epic Games\UE_4.27\Engine\Source\Editor\ContentBrowserData\Public\ContentBrowserDataLegacyBridge.h
-D:\Epic Games\UE_4.27\Engine\Source\Editor\ContentBrowserData\Public\ContentBrowserItemData.h
-D:\Epic Games\UE_4.27\Engine\Source\Editor\ContentBrowserData\Public\ContentBrowserDataMenuContexts.h
-D:\Epic Games\UE_4.27\Engine\Source\Editor\ContentBrowserData\Public\ContentBrowserItem.h
-D:\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ContentBrowserData\ContentBrowserItem.generated.h
-D:\Epic Games\UE_4.27\Engine\Source\Developer\CollectionManager\Public\CollectionManagerTypes.h
-D:\Epic Games\UE_4.27\Engine\Source\Developer\SourceControl\Public\ISourceControlState.h
-D:\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ContentBrowserData\ContentBrowserDataMenuContexts.generated.h
-D:\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ContentBrowserData\ContentBrowserDataLegacyBridge.generated.h
+D:\Epic Games\UE_4.27\Engine\Source\Editor\UnrealEd\Public\AutomatedAssetImportData.h
+D:\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd\AutomatedAssetImportData.generated.h
+D:\Epic Games\UE_4.27\Engine\Source\Runtime\AssetRegistry\Public\ARFilter.h
+D:\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AssetTools\IAssetTools.generated.h
 E:\Github\ProjectYJ\ProjectYJ\Plugins\VertexAnimToolset\Source\VertexAnimToolset\Public\VertexAnimProfile.h
 E:\Github\ProjectYJ\ProjectYJ\Plugins\VertexAnimToolset\Intermediate\Build\Win64\UE4Editor\Inc\VertexAnimToolset\VertexAnimProfile.generated.h
