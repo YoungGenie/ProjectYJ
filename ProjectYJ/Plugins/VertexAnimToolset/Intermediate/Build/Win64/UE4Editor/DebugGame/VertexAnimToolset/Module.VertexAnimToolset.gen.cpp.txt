@@ -1,0 +1,7 @@
+E:\Github\ProjectYJ\ProjectYJ\Plugins\VertexAnimToolset\Intermediate\Build\Win64\UE4Editor\DebugGame\VertexAnimToolset\Definitions.VertexAnimToolset.h
+E:/Github/ProjectYJ/ProjectYJ/Plugins/VertexAnimToolset/Intermediate/Build/Win64/UE4Editor/Inc/VertexAnimToolset/VertexAnimProfile.gen.cpp
+E:\UnrealEngine-4.27.2-release\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+E:\UnrealEngine-4.27.2-release\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+E:\Github\ProjectYJ\ProjectYJ\Plugins\VertexAnimToolset\Source\VertexAnimToolset/Public/VertexAnimProfile.h
+E:\Github\ProjectYJ\ProjectYJ\Plugins\VertexAnimToolset\Intermediate\Build\Win64\UE4Editor\Inc\VertexAnimToolset\VertexAnimProfile.generated.h
+E:/Github/ProjectYJ/ProjectYJ/Plugins/VertexAnimToolset/Intermediate/Build/Win64/UE4Editor/Inc/VertexAnimToolset/VertexAnimToolset.init.gen.cpp

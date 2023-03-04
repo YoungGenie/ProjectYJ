@@ -1,0 +1,7 @@
+E:\Github\ProjectYJ\ProjectYJ\Intermediate\Build\Win64\UE4Editor\DebugGame\ProjectYJ\Definitions.ProjectYJ.h
+E:\UnrealEngine-4.27.2-release\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+E:\UnrealEngine-4.27.2-release\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+E:\Github\ProjectYJ\ProjectYJ\Source\ProjectYJ/System/SignificanceManager/YJSignificanceManager.h
+E:\UnrealEngine-4.27.2-release\Engine\Plugins\Runtime\SignificanceManager\Source\SignificanceManager\Public\SignificanceManager.h
+E:\UnrealEngine-4.27.2-release\Engine\Plugins\Runtime\SignificanceManager\Intermediate\Build\Win64\UE4Editor\Inc\SignificanceManager\SignificanceManager.generated.h
+E:\Github\ProjectYJ\ProjectYJ\Intermediate\Build\Win64\UE4Editor\Inc\ProjectYJ\YJSignificanceManager.generated.h

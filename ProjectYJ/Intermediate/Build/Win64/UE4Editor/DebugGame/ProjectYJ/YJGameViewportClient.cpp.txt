@@ -1,0 +1,16 @@
+E:\Github\ProjectYJ\ProjectYJ\Intermediate\Build\Win64\UE4Editor\DebugGame\ProjectYJ\Definitions.ProjectYJ.h
+E:\Github\ProjectYJ\ProjectYJ\Source\ProjectYJ\Framework\Viewport\YJGameViewportClient.h
+E:\Github\ProjectYJ\ProjectYJ\Intermediate\Build\Win64\UE4Editor\Inc\ProjectYJ\YJGameViewportClient.generated.h
+E:\UnrealEngine-4.27.2-release\Engine\Source\Runtime\Engine\Classes\Kismet/GameplayStatics.h
+E:\UnrealEngine-4.27.2-release\Engine\Source\Runtime\Engine\Classes\Kismet/KismetSystemLibrary.h
+E:\UnrealEngine-4.27.2-release\Engine\Source\Runtime\CoreUObject\Public\UObject/PropertyAccessUtil.h
+E:\UnrealEngine-4.27.2-release\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\KismetSystemLibrary.generated.h
+E:\UnrealEngine-4.27.2-release\Engine\Source\Runtime\Engine\Classes\Sound/DialogueTypes.h
+E:\UnrealEngine-4.27.2-release\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DialogueTypes.generated.h
+E:\UnrealEngine-4.27.2-release\Engine\Source\Runtime\Engine\Classes\Kismet\GameplayStaticsTypes.h
+E:\UnrealEngine-4.27.2-release\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStaticsTypes.generated.h
+E:\UnrealEngine-4.27.2-release\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStatics.generated.h
+E:\Github\ProjectYJ\ProjectYJ\Source\ProjectYJ\System/SignificanceManager/YJSignificanceManager.h
+E:\UnrealEngine-4.27.2-release\Engine\Plugins\Runtime\SignificanceManager\Source\SignificanceManager\Public\SignificanceManager.h
+E:\UnrealEngine-4.27.2-release\Engine\Plugins\Runtime\SignificanceManager\Intermediate\Build\Win64\UE4Editor\Inc\SignificanceManager\SignificanceManager.generated.h
+E:\Github\ProjectYJ\ProjectYJ\Intermediate\Build\Win64\UE4Editor\Inc\ProjectYJ\YJSignificanceManager.generated.h

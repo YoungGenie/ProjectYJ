@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-VertexAnimToolsetEditor-Win64-DebugGame.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"E:\Github\ProjectYJ\ProjectYJ\Intermediate\Build\Win64\ProjectYJEditor\DebugGame\UnrealEd\SharedPCH.UnrealEd.NonOptimized.ShadowErrors.h.obj"
+"E:\Github\ProjectYJ\ProjectYJ\Plugins\VertexAnimToolset\Intermediate\Build\Win64\UE4Editor\DebugGame\VertexAnimToolsetEditor\Module.VertexAnimToolsetEditor.cpp.obj"
+"E:\Github\ProjectYJ\ProjectYJ\Plugins\VertexAnimToolset\Intermediate\Build\Win64\UE4Editor\DebugGame\VertexAnimToolsetEditor\Default.rc2.res"
+/OUT:"E:\Github\ProjectYJ\ProjectYJ\Plugins\VertexAnimToolset\Intermediate\Build\Win64\UE4Editor\DebugGame\VertexAnimToolsetEditor\UE4Editor-VertexAnimToolsetEditor-Win64-DebugGame.lib"

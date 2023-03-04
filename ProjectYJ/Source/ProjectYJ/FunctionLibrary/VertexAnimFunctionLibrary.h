@@ -19,15 +19,14 @@ class PROJECTYJ_API UVertexAnimFunctionLibrary : public UBlueprintFunctionLibrar
 	
 public:
 	UFUNCTION(BlueprintCallable, Category = "Vertex Animation Tool")
-		static void SetDataAtProfile(UVertexAnimProfile* InVertexAnimProfile, TSubclassOf<UAnimationAsset> InAnimationAsset, int32 InNumFrames);
+		static void SetDataAtProfile(UVertexAnimProfile* InVertexAnimProfile, UObject* InAnimationAsset, int32 InNumFrames);
 
 	UFUNCTION(BlueprintCallable, Category = "Vertex Animation Tool")
-		static void DoBake(UVertexAnimProfile* InVertexAnimProfile, USkeletalMesh* InSkeletalMesh, const FString& InAssetSavePath);
+		static void DoBake(UVertexAnimProfile* InVertexAnimProfile, UObject* InSkeletalMeshComponent, const FString& InAssetSavePath);
 
 public:
 	static float EncodeFloat(const float& T, const float& Bound);
 	static UStaticMesh* ConvertMeshesToStaticMesh(const TArray<UMeshComponent*>& InMeshComponents, const FTransform& InRootTransform = FTransform::Identity, const FString& InPackageName = FString());
 	static void VATUVsToStaticMeshLODs(UStaticMesh* StaticMesh, const int32 UVChannel, const TArray <TArray <FVector2D>>& UVs);
 	static void VATColorsToStaticMeshLODs(UStaticMesh* StaticMesh, const TArray <TArray <FColor>>& Colors);
-
 };

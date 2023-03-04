@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
 		"E:\\Github\\ProjectYJ\\ProjectYJ\\Source\\ProjectYJ\\ProjectYJ.Build.cs",
-		"E:\\Github\\ProjectYJ\\ProjectYJ\\Plugins\\VertexAnimToolset\\Source\\VertexAnimToolsetEditor\\VertexAnimToolsetEditor.Build.cs",
 		"E:\\Github\\ProjectYJ\\ProjectYJ\\Plugins\\VertexAnimToolset\\Source\\VertexAnimToolset\\VertexAnimToolset.Build.cs",
+		"E:\\Github\\ProjectYJ\\ProjectYJ\\Plugins\\VertexAnimToolset\\Source\\VertexAnimToolsetEditor\\VertexAnimToolsetEditor.Build.cs",
 		"E:\\Github\\ProjectYJ\\ProjectYJ\\Source\\ProjectYJ.Target.cs",
 		"E:\\Github\\ProjectYJ\\ProjectYJ\\Source\\ProjectYJEditor.Target.cs"
 	],

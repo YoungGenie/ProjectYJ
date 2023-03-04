@@ -1,0 +1,8 @@
+{
+	"BuildId": "95bb395b-fad7-4320-9909-f49a9fc0c27a",
+	"Modules": 
+	{
+		"VertexAnimToolset": "UE4Editor-VertexAnimToolset-Win64-DebugGame.dll",
+		"VertexAnimToolsetEditor": "UE4Editor-VertexAnimToolsetEditor-Win64-DebugGame.dll"
+	}
+}

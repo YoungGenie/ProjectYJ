@@ -12,6 +12,7 @@
 // --------------------------------------------------------------
 #include "RawMesh.h"
 #include "AssetToolsModule.h"
+#include "Rendering/SkeletalMeshModel.h"
 #include "Rendering/SkeletalMeshLODRenderData.h"
 #include "Materials/MaterialInstanceDynamic.h"
 
@@ -31,6 +32,303 @@ static void QuatSave(FQuat& Q)
 		{
 			Q.Normalize();
 		}
+	}
+}
+
+static void MapSkinVerts(
+	UVertexAnimProfile* InProfile, const TArray <FFinalSkinVertex>& SkinVerts,
+	TArray <int32>& UniqueVertsSourceID, TArray <FVector2D>& OutUVSet_Vert)
+{
+	TArray <FVector> UniqueVerts;
+	TArray <int32> UniqueID;
+	UniqueID.SetNumZeroed(SkinVerts.Num());
+
+	for (int32 i = 0; i < SkinVerts.Num(); i++)
+	{
+		int32 ID = INDEX_NONE;
+
+		if (InProfile->UVMergeDuplicateVerts)
+		{
+			if (UniqueVerts.Find(SkinVerts[i].Position, ID))
+			{
+				UniqueID[i] = ID;
+			}
+			else
+			{
+				UniqueID[i] = UniqueVerts.Num();
+				UniqueVerts.Add(SkinVerts[i].Position);
+				UniqueVertsSourceID.Add(i);
+			}
+		}
+		else
+		{
+			UniqueID[i] = UniqueVerts.Num();
+			UniqueVerts.Add(SkinVerts[i].Position);
+			UniqueVertsSourceID.Add(i);
+		}
+	}
+
+
+
+	if (InProfile->AutoSize)
+	{
+		int32 XSize = FMath::Min(InProfile->MaxWidth, (int32)FMath::RoundUpToPowerOfTwo(UniqueVerts.Num()));
+		InProfile->RowsPerFrame_Vert = FMath::CeilToInt((float)(UniqueVerts.Num()) / (float)(XSize));
+		InProfile->OverrideSize_Vert = FIntPoint(
+			XSize,
+			FMath::RoundUpToPowerOfTwo(InProfile->CalcTotalRequiredHeight_Vert()));
+	}
+	else
+	{
+		InProfile->RowsPerFrame_Vert = //FMath::CeilToInt((float)(UniqueVerts.Num()) / (float)(InProfile->OverrideSize.X));
+			FMath::RoundUpToPowerOfTwo((float)(UniqueVerts.Num()) / (float)(InProfile->OverrideSize_Vert.X));
+	}
+
+	const float XStep = 1.f / InProfile->OverrideSize_Vert.X;
+	const float YStep = 1.f / InProfile->OverrideSize_Vert.Y;
+	const FVector2D HalfStep = FVector2D(XStep, YStep) / 2;
+	TArray <FVector2D> UniqueMappedUVs;
+	UniqueMappedUVs.SetNum(UniqueVerts.Num());
+
+	for (int32 i = 0; i < UniqueVerts.Num(); i++)
+	{
+		// I SWITCHED THESE to have the UVs lined horizontally.
+		const int32 GridX = i % InProfile->OverrideSize_Vert.X;
+		const int32 GridY = i / InProfile->OverrideSize_Vert.X;
+		const FVector2D GridUV = FVector2D(GridX * XStep, GridY * YStep);
+		UniqueMappedUVs[i] = GridUV;
+	}
+
+	TArray <FVector2D> NewUVSet_Vert;
+	NewUVSet_Vert.SetNum(SkinVerts.Num());
+	for (int32 i = 0; i < SkinVerts.Num(); i++)
+	{
+		NewUVSet_Vert[i] = UniqueMappedUVs[UniqueID[i]];
+	}
+	OutUVSet_Vert = NewUVSet_Vert;
+};
+
+static void MapActiveBones(
+	UVertexAnimProfile* InProfile, const int32 NumBones, TArray <FVector2D>& OutUVSet_Bone)
+{
+	if (InProfile->AutoSize)
+	{
+		int32 XSize = FMath::Clamp((int32)FMath::RoundUpToPowerOfTwo(NumBones), 8, InProfile->MaxWidth);
+
+		InProfile->OverrideSize_Bone = FIntPoint(
+			XSize,
+			FMath::RoundUpToPowerOfTwo(InProfile->CalcTotalRequiredHeight_Bone() + 1));
+	}
+
+	const float XStep = 1.f / InProfile->OverrideSize_Bone.X;
+	const float YStep = 1.f / InProfile->OverrideSize_Bone.Y;
+	TArray <FVector2D> UniqueMappedUVs;
+	UniqueMappedUVs.SetNum(NumBones);
+
+	for (int32 i = 0; i < NumBones; i++)
+	{
+		if (true)
+		{
+			// I SWITCHED THESE to have the UVs lined horizontally.
+			const int32 GridX = i % InProfile->OverrideSize_Bone.X;
+			const int32 GridY = i / InProfile->OverrideSize_Bone.X;
+			const FVector2D GridUV = FVector2D(GridX * XStep, GridY * YStep);
+			UniqueMappedUVs[i] = GridUV;
+		}
+		else
+		{
+			UniqueMappedUVs[i] = FVector2D();
+		}
+	}
+
+	OutUVSet_Bone = UniqueMappedUVs;
+};
+
+static void SkinnedMeshVATData(
+	USkinnedMeshComponent* InSkinnedMeshComponent,
+	UVertexAnimProfile* InProfile,
+	TArray <int32>& UniqueSourceID,
+	TArray <TArray <FVector2D>>& UVs_VertAnim,
+	TArray <TArray <FVector2D>>& UVs_BoneAnim1,
+	TArray <TArray <FVector2D>>& UVs_BoneAnim2,
+	TArray <TArray <FColor>>& Colors_BoneAnim)
+{
+	UniqueSourceID.Empty();
+	UVs_VertAnim.Empty();
+	UVs_BoneAnim1.Empty();
+	UVs_BoneAnim2.Empty();
+	Colors_BoneAnim.Empty();
+
+	const int32 NumLODs = InSkinnedMeshComponent->GetNumLODs();
+
+	const auto& RefSkeleton = InSkinnedMeshComponent->SkeletalMesh->RefSkeleton;
+	const auto& GlobalRefSkeleton = InSkinnedMeshComponent->SkeletalMesh->Skeleton->GetReferenceSkeleton();
+
+	TArray <FVector2D> GridUVs_Vert;
+	TArray <FVector2D> GridUVs_Bone;
+
+	TArray<FFinalSkinVertex> AnimMeshFinalVertices;
+	int32 AnimMeshLOD = 0;
+
+
+	int32 UVVertStart = -1;
+	int32 UVBoneStart = -2;
+
+	FSkeletalMeshRenderData& SkeletalMeshRenderData = InSkinnedMeshComponent->MeshObject->GetSkeletalMeshRenderData();
+
+	{
+		FSkeletalMeshLODRenderData& LODData = SkeletalMeshRenderData.LODRenderData[0];
+		MapActiveBones(InProfile, GlobalRefSkeleton.GetNum(), GridUVs_Bone);
+
+		InSkinnedMeshComponent->GetCPUSkinnedVertices(AnimMeshFinalVertices, AnimMeshLOD);
+		MapSkinVerts(InProfile, AnimMeshFinalVertices, UniqueSourceID, GridUVs_Vert);
+
+		int32 UVChannelStart = LODData.StaticVertexBuffers.StaticMeshVertexBuffer.GetNumTexCoords();
+		UVVertStart = InProfile->Anims_Vert.Num() ? UVChannelStart : -1;
+		InProfile->UVChannel_VertAnim = UVVertStart;
+		UVBoneStart =
+			InProfile->Anims_Bone.Num() ? (InProfile->Anims_Vert.Num() ? UVChannelStart + 1 : UVChannelStart) : -2;
+		InProfile->UVChannel_BoneAnim = UVBoneStart;
+		InProfile->UVChannel_BoneAnim_Full = ((UVBoneStart >= 0) && InProfile->FullBoneSkinning) ? UVBoneStart + 1 : -1;
+	}
+
+
+	for (int32 OverallLODIndex = 0; OverallLODIndex < NumLODs; OverallLODIndex++)
+	{
+		int32 LODIndexRead = FMath::Min(OverallLODIndex, NumLODs - 1);
+
+		FSkeletalMeshLODInfo& SrcLODInfo = *(InSkinnedMeshComponent->SkeletalMesh->GetLODInfo(LODIndexRead));
+
+		// Get the CPU skinned verts for this LOD, WAIT, if it changes LOD on each loop, does that not mean it changes??
+		TArray<FFinalSkinVertex> FinalVertices;
+		InSkinnedMeshComponent->GetCPUSkinnedVertices(FinalVertices, LODIndexRead);
+
+
+		TArray <FColor> thisLODSkinWeightColor;
+		// Here is where we find the correct grid UVs for this LOD
+		TArray <FVector2D> thisLODGridUVs_Vert, thisLODGridUVs_Bone1, thisLODGridUVs_Bone2;
+
+		thisLODGridUVs_Bone1.SetNum(FinalVertices.Num());
+		thisLODGridUVs_Bone2.SetNum(FinalVertices.Num());
+		thisLODSkinWeightColor.SetNum(FinalVertices.Num());
+
+		if (OverallLODIndex == AnimMeshLOD)
+		{
+			thisLODGridUVs_Vert = GridUVs_Vert;
+		}
+		else
+		{
+			// Here we search
+			thisLODGridUVs_Vert.SetNum(FinalVertices.Num());
+
+			for (int32 o = 0; o < FinalVertices.Num(); o++)
+			{
+				const FVector Pos = FinalVertices[o].Position;
+				float Lowest = MAX_FLT;
+				int32 WinnerID = INDEX_NONE;
+
+				for (int32 u = 0; u < UniqueSourceID.Num(); u++)
+				{
+					const FVector TargetPos = AnimMeshFinalVertices[UniqueSourceID[u]].Position;
+
+					const float Dist = FVector::Dist(Pos, TargetPos);
+					if (Dist < Lowest)
+					{
+						Lowest = Dist;
+						WinnerID = UniqueSourceID[u];
+					}
+				}
+
+				check(WinnerID != INDEX_NONE);
+
+				thisLODGridUVs_Vert[o] = GridUVs_Vert[WinnerID];
+			}
+		}
+
+
+		FSkeletalMeshModel* Resource = InSkinnedMeshComponent->SkeletalMesh->GetImportedModel();
+		FSkeletalMeshLODRenderData& LODData = SkeletalMeshRenderData.LODRenderData[LODIndexRead];
+
+		{
+			const FSkinWeightVertexBuffer& SkinWeightVertexBuffer = *LODData.GetSkinWeightVertexBuffer();
+
+			auto SkinData = LODData.GetSkinWeightVertexBuffer();
+			check(SkinData->GetNumVertices() == FinalVertices.Num());
+
+			for (int32 s = 0; s < (int32)SkinData->GetNumVertices(); s++)
+			{
+				int32 SectionIndex;
+				int32 VertIndex;
+				LODData.GetSectionFromVertexIndex(s, SectionIndex, VertIndex);
+				check(SectionIndex < LODData.RenderSections.Num());
+				const FSkelMeshRenderSection& Section = LODData.RenderSections[SectionIndex];
+				const auto& SoftVert = Resource->LODModels[LODIndexRead].Sections[SectionIndex].SoftVertices[VertIndex];
+
+				uint32 InfluenceBones[4] = {
+						SoftVert.InfluenceBones[0],
+						SoftVert.InfluenceBones[1],
+						SoftVert.InfluenceBones[2],
+						SoftVert.InfluenceBones[3]
+				};
+
+				uint8 InfluenceWeights[4] = {
+						SoftVert.InfluenceWeights[0],
+						SoftVert.InfluenceWeights[1],
+						SoftVert.InfluenceWeights[2],
+						SoftVert.InfluenceWeights[3]
+				};
+
+				const float Sum =
+					((float)InfluenceWeights[0] / 255.f) + ((float)InfluenceWeights[1] / 255.f)
+					+ ((float)InfluenceWeights[2] / 255.f) + ((float)InfluenceWeights[3] / 255.f);
+				const float Rest = 1.f - Sum;
+
+				FLinearColor W = FLinearColor(
+					((float)InfluenceWeights[0] / 255.f) + Rest,
+					((float)InfluenceWeights[1] / 255.f),
+					((float)InfluenceWeights[2] / 255.f),
+					((float)InfluenceWeights[3] / 255.f));
+
+
+				thisLODSkinWeightColor[s] = W.ToFColor(false);
+
+				{
+					check(Section.BoneMap.IsValidIndex(InfluenceBones[0]));
+					check(Section.BoneMap.IsValidIndex(InfluenceBones[1]));
+					check(Section.BoneMap.IsValidIndex(InfluenceBones[2]));
+					check(Section.BoneMap.IsValidIndex(InfluenceBones[3]));
+
+					const int32
+						Bone0 = GlobalRefSkeleton.FindBoneIndex(RefSkeleton.GetBoneName(Section.BoneMap[InfluenceBones[0]])),
+						Bone1 = GlobalRefSkeleton.FindBoneIndex(RefSkeleton.GetBoneName(Section.BoneMap[InfluenceBones[1]])),
+						Bone2 = GlobalRefSkeleton.FindBoneIndex(RefSkeleton.GetBoneName(Section.BoneMap[InfluenceBones[2]])),
+						Bone3 = GlobalRefSkeleton.FindBoneIndex(RefSkeleton.GetBoneName(Section.BoneMap[InfluenceBones[3]]));
+
+
+					checkf(GridUVs_Bone.IsValidIndex(Bone0), TEXT("NUMY %i || %i"),
+						GridUVs_Bone.Num(), LODData.ActiveBoneIndices.Num());
+					checkf(GridUVs_Bone.IsValidIndex(Bone1), TEXT("NUMY %i || %i"),
+						GridUVs_Bone.Num(), LODData.ActiveBoneIndices.Num());
+					checkf(GridUVs_Bone.IsValidIndex(Bone2), TEXT("NUMY %i || %i"),
+						GridUVs_Bone.Num(), LODData.ActiveBoneIndices.Num());
+					checkf(GridUVs_Bone.IsValidIndex(Bone3), TEXT("NUMY %i || %i"),
+						GridUVs_Bone.Num(), LODData.ActiveBoneIndices.Num());
+
+
+					thisLODGridUVs_Bone1[s] = FVector2D(
+						GridUVs_Bone[Bone0].X,
+						GridUVs_Bone[Bone1].X);
+					thisLODGridUVs_Bone2[s] = FVector2D(
+						GridUVs_Bone[Bone2].X,
+						GridUVs_Bone[Bone3].X);
+				}
+			}
+		}
+
+		UVs_VertAnim.Add(thisLODGridUVs_Vert);
+		UVs_BoneAnim1.Add(thisLODGridUVs_Bone1);
+		UVs_BoneAnim2.Add(thisLODGridUVs_Bone2);
+		Colors_BoneAnim.Add(thisLODSkinWeightColor);
 	}
 }
 
@@ -116,7 +414,6 @@ void GatherAndBakeAllAnimVertData(UVertexAnimProfile* Profile, USkeletalMeshComp
 			Profile->Anims_Vert[i].AnimStart_Generated = Profile->CalcStartHeightOfAnim_Vert(i);
 
 			{
-
 				for (int32 j = 0; j < Profile->Anims_Vert[i].NumFrames; j++)
 				{
 					const float AnimTime = Step_Vert * j;
@@ -428,7 +725,7 @@ static void SkinnedMeshToRawMeshes(USkinnedMeshComponent* InSkinnedMeshComponent
 //
 
 
-void UVertexAnimFunctionLibrary::SetDataAtProfile(UVertexAnimProfile* InVertexAnimProfile, TSubclassOf<UAnimationAsset> InAnimationAsset, int32 InNumFrames)
+void UVertexAnimFunctionLibrary::SetDataAtProfile(UVertexAnimProfile* InVertexAnimProfile, UObject* InAnimationAsset, int32 InNumFrames)
 {
 	if (InVertexAnimProfile == nullptr)
 		return;
@@ -443,51 +740,18 @@ void UVertexAnimFunctionLibrary::SetDataAtProfile(UVertexAnimProfile* InVertexAn
 	InVertexAnimProfile->Anims_Vert.Add(NewData);
 }
 
-void UVertexAnimFunctionLibrary::DoBake(UVertexAnimProfile* InVertexAnimProfile, USkeletalMesh* InSkeletalMesh, const FString& InAssetSavePath)
+void UVertexAnimFunctionLibrary::DoBake(UVertexAnimProfile* InVertexAnimProfile, UObject* InSkeletalMeshComponent, const FString& InAssetSavePath)
 {
-	USkeletalMeshComponent* PreviewComponent = NewObject<USkeletalMeshComponent>();
-	PreviewComponent->GlobalAnimRateScale = 0.f;
-	PreviewComponent->SetSkeletalMesh(InSkeletalMesh);
+	if (InVertexAnimProfile == nullptr)
+		return;
 
+	if (InSkeletalMeshComponent == nullptr)
+		return;
+	
+	USkeletalMeshComponent* MeshComponent = Cast<USkeletalMeshComponent>(InSkeletalMeshComponent);
 	UVertexAnimProfile* Profile = InVertexAnimProfile;
 
-	FString MeshName;
-	FString PackageName;
 	bool bOnlyCreateStaticMesh = false;
-
-	/*
-	{
-		FString NewNameSuggestion = FString(TEXT("VertexAnimStaticMesh"));
-		FString PackageNameSuggestion = FString(TEXT("/Game/Meshes/")) + NewNameSuggestion;
-		FString Name;
-		FAssetToolsModule& AssetToolsModule = FModuleManager::LoadModuleChecked<FAssetToolsModule>("AssetTools");
-		AssetToolsModule.Get().CreateUniqueAssetName(PackageNameSuggestion, TEXT(""), PackageNameSuggestion, Name);
-
-		//TSharedPtr<SDlgPickAssetPath> PickAssetPathWidget =
-		TSharedPtr<SPickAssetDialog> PickAssetPathWidget =
-			SNew(SPickAssetDialog)
-			.Title(LOCTEXT("BakeAnimDialog", "Bake Anim Dialog"))
-			.DefaultAssetPath(FText::FromString(PackageNameSuggestion));
-
-		if (PickAssetPathWidget->ShowModal() == EAppReturnType::Ok)
-		{
-			// Get the full name of where we want to create the mesh asset.
-			Profile = PickAssetPathWidget->GetSelectedProfile();
-			bOnlyCreateStaticMesh = PickAssetPathWidget->GetOnlyCreateStaticMesh();
-
-			PackageName = PickAssetPathWidget->GetFullAssetPath().ToString();
-			MeshName = FPackageName::GetLongPackageAssetName(PackageName);
-
-			// Check if the user inputed a valid asset name, if they did not, give it the generated default name
-			if (MeshName.IsEmpty())
-			{
-				// Use the defaults that were already generated.
-				PackageName = PackageNameSuggestion;
-				MeshName = *Name;
-			}
-		}
-	}
-	*/
 
 	bool DoAnimBake = (Profile != NULL) && !bOnlyCreateStaticMesh;
 	bool DoStaticMesh = (Profile != NULL);
@@ -500,11 +764,12 @@ void UVertexAnimFunctionLibrary::DoBake(UVertexAnimProfile* InVertexAnimProfile,
 	TArray<TArray<FVector2D>> UVs_BoneAnim2;
 	TArray<TArray<FColor>> Colors_BoneAnim;
 
-	/*
+	FString PackageName;// = InAssetSavePath;
+
 	{
 		{
 			SkinnedMeshVATData(
-				PreviewComponent,
+				MeshComponent,
 				Profile,
 				UniqueSourceIDs,
 				UVs_VertAnim,
@@ -516,20 +781,17 @@ void UVertexAnimFunctionLibrary::DoBake(UVertexAnimProfile* InVertexAnimProfile,
 		if ((Profile->CalcTotalRequiredHeight_Vert() > Profile->OverrideSize_Vert.Y) ||
 			(Profile->CalcTotalRequiredHeight_Bone() > Profile->OverrideSize_Bone.Y))
 		{
-			FMessageDialog::Open(EAppMsgType::Ok, LOCTEXT("SelectedProfileRequiresMoreHeight", "Selected Profile Requires More Texture Height"));
 			return;
 		}
 
 		if ((Profile->OverrideSize_Vert.GetMax() > 4096) ||
 			(Profile->OverrideSize_Bone.GetMax() > 4096))
 		{
-			FMessageDialog::Open(EAppMsgType::Ok,
-				LOCTEXT("TooMuch", "Warning: required texture size exceeds UE texture resolution limit, Mesh has too many vertices and/or Profile has too many animation frames"));
 			return;
 		}
 	}
-	*/
 
+	// Create StaticMesh
 	if (DoStaticMesh)
 	{
 		if (Profile->StaticMesh && (!bOnlyCreateStaticMesh))
@@ -539,18 +801,19 @@ void UVertexAnimFunctionLibrary::DoBake(UVertexAnimProfile* InVertexAnimProfile,
 		else
 		{
 			FString AssetName = Profile->GetOutermost()->GetName();
-			//FString Name = Profile->GetName();
-			FString Name = PreviewComponent->SkeletalMesh->GetName();
-			//FString AssetName = PreviewComponent->SkeletalMesh->GetOutermost()->GetName();
-			const FString SanitizedBasePackageName = InAssetSavePath;
-			const FString PackagePath = FPackageName::GetLongPackagePath(SanitizedBasePackageName) + TEXT("/") + Name + TEXT("_VAT");
+			FString Name = MeshComponent->SkeletalMesh->GetName();
+			const FString PackagePath = InAssetSavePath + TEXT("/") + Name + TEXT("_VAT");
 			PackageName = PackagePath;
 		}
 
-		UStaticMesh* StaticMesh = UVertexAnimFunctionLibrary::ConvertMeshesToStaticMesh({ PreviewComponent }, FTransform::Identity, PackageName);
+		UStaticMesh* StaticMesh = UVertexAnimFunctionLibrary::ConvertMeshesToStaticMesh({ MeshComponent }, FTransform::Identity, PackageName);
 
-		if (Profile->UVChannel_VertAnim != -1) UVertexAnimFunctionLibrary::VATUVsToStaticMeshLODs(StaticMesh, Profile->UVChannel_VertAnim, UVs_VertAnim);
-		if (Profile->UVChannel_BoneAnim != -1) UVertexAnimFunctionLibrary::VATUVsToStaticMeshLODs(StaticMesh, Profile->UVChannel_BoneAnim, UVs_BoneAnim1);
+		if (Profile->UVChannel_VertAnim != -1) 
+			UVertexAnimFunctionLibrary::VATUVsToStaticMeshLODs(StaticMesh, Profile->UVChannel_VertAnim, UVs_VertAnim);
+
+		if (Profile->UVChannel_BoneAnim != -1) 
+			UVertexAnimFunctionLibrary::VATUVsToStaticMeshLODs(StaticMesh, Profile->UVChannel_BoneAnim, UVs_BoneAnim1);
+
 		if (Profile->UVChannel_BoneAnim_Full != -1)
 		{
 			UVertexAnimFunctionLibrary::VATUVsToStaticMeshLODs(StaticMesh, Profile->UVChannel_BoneAnim_Full, UVs_BoneAnim2);
@@ -562,14 +825,13 @@ void UVertexAnimFunctionLibrary::DoBake(UVertexAnimProfile* InVertexAnimProfile,
 	}
 
 
-
 	if (DoAnimBake)
 	{
 		int32 TextureWidth_Vert = Profile->OverrideSize_Vert.X;
 		int32 TextureHeight_Vert = Profile->OverrideSize_Vert.Y;
 
 		TArray <FVector4> VertPos, VertNormal;
-		GatherAndBakeAllAnimVertData(Profile, PreviewComponent, UniqueSourceIDs, VertPos, VertNormal);
+		GatherAndBakeAllAnimVertData(Profile, MeshComponent, UniqueSourceIDs, VertPos, VertNormal);
 
 		FString AssetName = Profile->GetOutermost()->GetName();
 		const FString SanitizedBasePackageName = InAssetSavePath;
@@ -585,7 +847,7 @@ void UVertexAnimFunctionLibrary::DoBake(UVertexAnimProfile* InVertexAnimProfile,
 			{
 				EncodeData_Vec(VertNormal, 2.f, false, Data); // decided on fixed 2.0 for simplicity
 
-				Profile->NormalsTexture = SetTexture2(PreviewComponent->GetWorld(), PackagePath,
+				Profile->NormalsTexture = SetTexture2(MeshComponent->GetWorld(), PackagePath,
 					Profile->GetName() + "_Normals", Profile->NormalsTexture,
 					TextureWidth_Vert, TextureHeight_Vert,
 					Data,
@@ -605,7 +867,7 @@ void UVertexAnimFunctionLibrary::DoBake(UVertexAnimProfile* InVertexAnimProfile,
 			{
 				EncodeData_Vec(VertPos, Profile->MaxValueOffset_Vert, true, Data);
 
-				Profile->OffsetsTexture = SetTexture2(PreviewComponent->GetWorld(), PackagePath,
+				Profile->OffsetsTexture = SetTexture2(MeshComponent->GetWorld(), PackagePath,
 					Profile->GetName() + "_Offsets", Profile->OffsetsTexture,
 					TextureWidth_Vert, TextureHeight_Vert,
 					Data,
@@ -658,11 +920,8 @@ UStaticMesh* UVertexAnimFunctionLibrary::ConvertMeshesToStaticMesh(const TArray<
 
 			if (IsValidSkinnedMeshComponent(SkinnedMeshComponent))
 			{
-				OverallMaxLODs = FMath::Max(SkinnedMeshComponent->MeshObject->GetSkeletalMeshRenderData().LODRenderData.Num(), OverallMaxLODs);
-			}
-			else if (false)//(IsValidStaticMeshComponent(StaticMeshComponent))
-			{
-				OverallMaxLODs = FMath::Max(StaticMeshComponent->GetStaticMesh()->RenderData->LODResources.Num(), OverallMaxLODs);
+				USkeletalMesh* SkeletalMesh = SkinnedMeshComponent->SkeletalMesh;
+				OverallMaxLODs = FMath::Max(SkeletalMesh->GetResourceForRendering()->LODRenderData.Num(), OverallMaxLODs);
 			}
 		}
 
@@ -681,10 +940,6 @@ UStaticMesh* UVertexAnimFunctionLibrary::ConvertMeshesToStaticMesh(const TArray<
 			if (IsValidSkinnedMeshComponent(SkinnedMeshComponent))
 			{
 				SkinnedMeshToRawMeshes(SkinnedMeshComponent, OverallMaxLODs, ComponentToWorld, PackageName, RawMeshTrackers, RawMeshes, Materials);
-			}
-			else if (false)//(IsValidStaticMeshComponent(StaticMeshComponent))
-			{
-				//StaticMeshToRawMeshes(StaticMeshComponent, OverallMaxLODs, ComponentToWorld, PackageName, RawMeshTrackers, RawMeshes, Materials);
 			}
 		}
 

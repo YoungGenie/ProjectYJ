@@ -9,8 +9,7 @@
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 class UVertexAnimProfile;
-class USkeletalMesh;
-class UAnimationAsset;
+class UObject;
 #ifdef PROJECTYJ_VertexAnimFunctionLibrary_generated_h
 #error "VertexAnimFunctionLibrary.generated.h already included, missing '#pragma once' in VertexAnimFunctionLibrary.h"
 #endif
