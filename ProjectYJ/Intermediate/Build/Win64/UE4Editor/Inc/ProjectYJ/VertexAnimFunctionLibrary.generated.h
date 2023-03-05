@@ -9,26 +9,37 @@
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 class UVertexAnimProfile;
+struct FVertexAnimProfileData;
 class UObject;
+class UStaticMesh;
 #ifdef PROJECTYJ_VertexAnimFunctionLibrary_generated_h
 #error "VertexAnimFunctionLibrary.generated.h already included, missing '#pragma once' in VertexAnimFunctionLibrary.h"
 #endif
 #define PROJECTYJ_VertexAnimFunctionLibrary_generated_h
 
-#define ProjectYJ_Source_ProjectYJ_FunctionLibrary_VertexAnimFunctionLibrary_h_18_SPARSE_DATA
-#define ProjectYJ_Source_ProjectYJ_FunctionLibrary_VertexAnimFunctionLibrary_h_18_RPC_WRAPPERS \
+#define ProjectYJ_Source_ProjectYJ_FunctionLibrary_VertexAnimFunctionLibrary_h_19_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FVertexAnimProfileData_Statics; \
+	PROJECTYJ_API static class UScriptStruct* StaticStruct();
+
+
+template<> PROJECTYJ_API UScriptStruct* StaticStruct<struct FVertexAnimProfileData>();
+
+#define ProjectYJ_Source_ProjectYJ_FunctionLibrary_VertexAnimFunctionLibrary_h_47_SPARSE_DATA
+#define ProjectYJ_Source_ProjectYJ_FunctionLibrary_VertexAnimFunctionLibrary_h_47_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execGetVertexAnimProfileData); \
 	DECLARE_FUNCTION(execDoBake); \
 	DECLARE_FUNCTION(execSetDataAtProfile);
 
 
-#define ProjectYJ_Source_ProjectYJ_FunctionLibrary_VertexAnimFunctionLibrary_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+#define ProjectYJ_Source_ProjectYJ_FunctionLibrary_VertexAnimFunctionLibrary_h_47_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execGetVertexAnimProfileData); \
 	DECLARE_FUNCTION(execDoBake); \
 	DECLARE_FUNCTION(execSetDataAtProfile);
 
 
-#define ProjectYJ_Source_ProjectYJ_FunctionLibrary_VertexAnimFunctionLibrary_h_18_INCLASS_NO_PURE_DECLS \
+#define ProjectYJ_Source_ProjectYJ_FunctionLibrary_VertexAnimFunctionLibrary_h_47_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUVertexAnimFunctionLibrary(); \
 	friend struct Z_Construct_UClass_UVertexAnimFunctionLibrary_Statics; \
@@ -37,7 +48,7 @@ public: \
 	DECLARE_SERIALIZER(UVertexAnimFunctionLibrary)
 
 
-#define ProjectYJ_Source_ProjectYJ_FunctionLibrary_VertexAnimFunctionLibrary_h_18_INCLASS \
+#define ProjectYJ_Source_ProjectYJ_FunctionLibrary_VertexAnimFunctionLibrary_h_47_INCLASS \
 private: \
 	static void StaticRegisterNativesUVertexAnimFunctionLibrary(); \
 	friend struct Z_Construct_UClass_UVertexAnimFunctionLibrary_Statics; \
@@ -46,7 +57,7 @@ public: \
 	DECLARE_SERIALIZER(UVertexAnimFunctionLibrary)
 
 
-#define ProjectYJ_Source_ProjectYJ_FunctionLibrary_VertexAnimFunctionLibrary_h_18_STANDARD_CONSTRUCTORS \
+#define ProjectYJ_Source_ProjectYJ_FunctionLibrary_VertexAnimFunctionLibrary_h_47_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UVertexAnimFunctionLibrary(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UVertexAnimFunctionLibrary) \
@@ -59,7 +70,7 @@ private: \
 public:
 
 
-#define ProjectYJ_Source_ProjectYJ_FunctionLibrary_VertexAnimFunctionLibrary_h_18_ENHANCED_CONSTRUCTORS \
+#define ProjectYJ_Source_ProjectYJ_FunctionLibrary_VertexAnimFunctionLibrary_h_47_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UVertexAnimFunctionLibrary(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -72,28 +83,28 @@ public: \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UVertexAnimFunctionLibrary)
 
 
-#define ProjectYJ_Source_ProjectYJ_FunctionLibrary_VertexAnimFunctionLibrary_h_18_PRIVATE_PROPERTY_OFFSET
-#define ProjectYJ_Source_ProjectYJ_FunctionLibrary_VertexAnimFunctionLibrary_h_15_PROLOG
-#define ProjectYJ_Source_ProjectYJ_FunctionLibrary_VertexAnimFunctionLibrary_h_18_GENERATED_BODY_LEGACY \
+#define ProjectYJ_Source_ProjectYJ_FunctionLibrary_VertexAnimFunctionLibrary_h_47_PRIVATE_PROPERTY_OFFSET
+#define ProjectYJ_Source_ProjectYJ_FunctionLibrary_VertexAnimFunctionLibrary_h_44_PROLOG
+#define ProjectYJ_Source_ProjectYJ_FunctionLibrary_VertexAnimFunctionLibrary_h_47_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	ProjectYJ_Source_ProjectYJ_FunctionLibrary_VertexAnimFunctionLibrary_h_18_PRIVATE_PROPERTY_OFFSET \
-	ProjectYJ_Source_ProjectYJ_FunctionLibrary_VertexAnimFunctionLibrary_h_18_SPARSE_DATA \
-	ProjectYJ_Source_ProjectYJ_FunctionLibrary_VertexAnimFunctionLibrary_h_18_RPC_WRAPPERS \
-	ProjectYJ_Source_ProjectYJ_FunctionLibrary_VertexAnimFunctionLibrary_h_18_INCLASS \
-	ProjectYJ_Source_ProjectYJ_FunctionLibrary_VertexAnimFunctionLibrary_h_18_STANDARD_CONSTRUCTORS \
+	ProjectYJ_Source_ProjectYJ_FunctionLibrary_VertexAnimFunctionLibrary_h_47_PRIVATE_PROPERTY_OFFSET \
+	ProjectYJ_Source_ProjectYJ_FunctionLibrary_VertexAnimFunctionLibrary_h_47_SPARSE_DATA \
+	ProjectYJ_Source_ProjectYJ_FunctionLibrary_VertexAnimFunctionLibrary_h_47_RPC_WRAPPERS \
+	ProjectYJ_Source_ProjectYJ_FunctionLibrary_VertexAnimFunctionLibrary_h_47_INCLASS \
+	ProjectYJ_Source_ProjectYJ_FunctionLibrary_VertexAnimFunctionLibrary_h_47_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define ProjectYJ_Source_ProjectYJ_FunctionLibrary_VertexAnimFunctionLibrary_h_18_GENERATED_BODY \
+#define ProjectYJ_Source_ProjectYJ_FunctionLibrary_VertexAnimFunctionLibrary_h_47_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	ProjectYJ_Source_ProjectYJ_FunctionLibrary_VertexAnimFunctionLibrary_h_18_PRIVATE_PROPERTY_OFFSET \
-	ProjectYJ_Source_ProjectYJ_FunctionLibrary_VertexAnimFunctionLibrary_h_18_SPARSE_DATA \
-	ProjectYJ_Source_ProjectYJ_FunctionLibrary_VertexAnimFunctionLibrary_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
-	ProjectYJ_Source_ProjectYJ_FunctionLibrary_VertexAnimFunctionLibrary_h_18_INCLASS_NO_PURE_DECLS \
-	ProjectYJ_Source_ProjectYJ_FunctionLibrary_VertexAnimFunctionLibrary_h_18_ENHANCED_CONSTRUCTORS \
+	ProjectYJ_Source_ProjectYJ_FunctionLibrary_VertexAnimFunctionLibrary_h_47_PRIVATE_PROPERTY_OFFSET \
+	ProjectYJ_Source_ProjectYJ_FunctionLibrary_VertexAnimFunctionLibrary_h_47_SPARSE_DATA \
+	ProjectYJ_Source_ProjectYJ_FunctionLibrary_VertexAnimFunctionLibrary_h_47_RPC_WRAPPERS_NO_PURE_DECLS \
+	ProjectYJ_Source_ProjectYJ_FunctionLibrary_VertexAnimFunctionLibrary_h_47_INCLASS_NO_PURE_DECLS \
+	ProjectYJ_Source_ProjectYJ_FunctionLibrary_VertexAnimFunctionLibrary_h_47_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

@@ -6,7 +6,7 @@
 /NAME:"UE4Editor-ProjectYJ.dll"
 /IGNORE:4221
 /NODEFAULTLIB
-"E:\Github\ProjectYJ\ProjectYJ\Intermediate\Build\Win64\ProjectYJEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"E:\UnrealEngine-4.27.2-release\Engine\Intermediate\Build\Win64\UE4Editor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h.obj"
 "E:\Github\ProjectYJ\ProjectYJ\Intermediate\Build\Win64\UE4Editor\Development\ProjectYJ\YJCharacter.cpp.obj"
 "E:\Github\ProjectYJ\ProjectYJ\Intermediate\Build\Win64\UE4Editor\Development\ProjectYJ\ProjectYJCharacter.cpp.obj"
 "E:\Github\ProjectYJ\ProjectYJ\Intermediate\Build\Win64\UE4Editor\Development\ProjectYJ\ProjectYJGameMode.cpp.obj"
@@ -31,5 +31,5 @@
 "E:\Github\ProjectYJ\ProjectYJ\Intermediate\Build\Win64\UE4Editor\Development\ProjectYJ\YJGameViewportClient.gen.cpp.obj"
 "E:\Github\ProjectYJ\ProjectYJ\Intermediate\Build\Win64\UE4Editor\Development\ProjectYJ\YJSignificanceManager.gen.cpp.obj"
 "E:\Github\ProjectYJ\ProjectYJ\Intermediate\Build\Win64\UE4Editor\Development\ProjectYJ\YJSpawnVolume.gen.cpp.obj"
-"E:\Github\ProjectYJ\ProjectYJ\Intermediate\Build\Win64\UE4Editor\Development\ProjectYJ\Default.rc2.res"
+"E:\UnrealEngine-4.27.2-release\Engine\Intermediate\Build\Win64\UE4Editor\Development\Default.rc2.res"
 /OUT:"E:\Github\ProjectYJ\ProjectYJ\Intermediate\Build\Win64\UE4Editor\Development\ProjectYJ\UE4Editor-ProjectYJ.lib"

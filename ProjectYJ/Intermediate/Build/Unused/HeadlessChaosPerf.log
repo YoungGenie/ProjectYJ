@@ -1,0 +1,15 @@
+﻿  Creating makefile for HeadlessChaosPerf (no existing makefile)
+  Parsing headers for HeadlessChaosPerf
+    Running UnrealHeaderTool HeadlessChaosPerf "E:\UnrealEngine-4.27.2-release\Engine\Intermediate\Build\Win64\HeadlessChaosPerf\Development\HeadlessChaosPerf.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="E:\UnrealEngine-4.27.2-release\Engine\Programs\UnrealBuildTool\Log_UHT.txt"
+  LogInit: Display: Loading text-based GConfig....
+  Reflection code generated for HeadlessChaosPerf in 1.0726149 seconds
+  Building HeadlessChaosPerf...
+  Using Visual Studio 2019 14.28.29915 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 4 actions with 12 processes...
+    [1/4] Default.rc2
+    [2/4] Module.HeadlessChaosPerf.cpp
+    [3/4] HeadlessChaosPerf.exe
+       E:\UnrealEngine-4.27.2-release\Engine\Binaries\Win64\NotForLicensees\HeadlessChaosPerf.lib 라이브러리 및 E:\UnrealEngine-4.27.2-release\Engine\Binaries\Win64\NotForLicensees\HeadlessChaosPerf.exp 개체를 생성하고 있습니다.
+    [4/4] HeadlessChaosPerf.target
+  Total time in Parallel executor: 10.90 seconds
+  Total execution time: 34.11 seconds

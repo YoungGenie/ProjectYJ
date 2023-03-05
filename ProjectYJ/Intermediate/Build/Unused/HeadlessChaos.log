@@ -1,0 +1,11 @@
+﻿  Creating makefile for HeadlessChaos (no existing makefile)
+  Parsing headers for HeadlessChaos
+    Running UnrealHeaderTool HeadlessChaos "E:\UnrealEngine-4.27.2-release\Engine\Intermediate\Build\Win64\HeadlessChaos\Development\HeadlessChaos.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="E:\UnrealEngine-4.27.2-release\Engine\Programs\UnrealBuildTool\Log_UHT.txt"
+  LogInit: Display: Loading text-based GConfig....
+  Reflection code generated for HeadlessChaos in 0.780628 seconds
+  Building HeadlessChaos...
+  Using Visual Studio 2019 14.28.29915 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 8 actions with 12 processes...
+    [1/8] Default.rc2
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(46,5): warning MSB5021: 빌드가 취소되었으므로 작업 실행 파일 "cmd" 및 자식 프로세스를 종료합니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(46,5): error MSB4181: "Exec" 작업이 false를 반환했지만 오류를 기록하지 않았습니다.

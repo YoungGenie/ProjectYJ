@@ -6,7 +6,7 @@
 /NAME:"UE4Editor-VertexAnimToolsetEditor.dll"
 /IGNORE:4221
 /NODEFAULTLIB
-"E:\Github\ProjectYJ\ProjectYJ\Intermediate\Build\Win64\ProjectYJEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h.obj"
+"E:\UnrealEngine-4.27.2-release\Engine\Intermediate\Build\Win64\UE4Editor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h.obj"
 "E:\Github\ProjectYJ\ProjectYJ\Plugins\VertexAnimToolset\Intermediate\Build\Win64\UE4Editor\Development\VertexAnimToolsetEditor\Module.VertexAnimToolsetEditor.cpp.obj"
-"E:\Github\ProjectYJ\ProjectYJ\Plugins\VertexAnimToolset\Intermediate\Build\Win64\UE4Editor\Development\VertexAnimToolsetEditor\Default.rc2.res"
+"E:\UnrealEngine-4.27.2-release\Engine\Intermediate\Build\Win64\UE4Editor\Development\Default.rc2.res"
 /OUT:"E:\Github\ProjectYJ\ProjectYJ\Plugins\VertexAnimToolset\Intermediate\Build\Win64\UE4Editor\Development\VertexAnimToolsetEditor\UE4Editor-VertexAnimToolsetEditor.lib"

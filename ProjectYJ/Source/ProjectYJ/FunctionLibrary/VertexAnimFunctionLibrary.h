@@ -11,6 +11,35 @@
  */
 
 class UVertexAnimProfile;
+class UMaterialInstanceConstant;
+
+USTRUCT(BlueprintType)
+struct FVertexAnimProfileData
+{
+	GENERATED_BODY()
+
+public:
+	UPROPERTY(BlueprintReadWrite)
+		int32 NumFrames = 0;
+
+	UPROPERTY(BlueprintReadWrite)
+		int32 AnimStart_Generated = 0;
+
+	UPROPERTY(BlueprintReadWrite)
+		float Speed_Generated = 0.f;
+
+	UPROPERTY(BlueprintReadWrite)
+		int32 RowsPerFrame = 0;
+
+	UPROPERTY(BlueprintReadWrite)
+		float MaxValueOffset = 0;
+
+	UPROPERTY(BlueprintReadWrite)
+		UTexture2D* OffsetsTexture = nullptr;
+
+	UPROPERTY(BlueprintReadWrite)
+		UTexture2D* NormalsTexture = nullptr;
+};
 
 UCLASS()
 class PROJECTYJ_API UVertexAnimFunctionLibrary : public UBlueprintFunctionLibrary
@@ -22,7 +51,10 @@ public:
 		static void SetDataAtProfile(UVertexAnimProfile* InVertexAnimProfile, UObject* InAnimationAsset, int32 InNumFrames);
 
 	UFUNCTION(BlueprintCallable, Category = "Vertex Animation Tool")
-		static void DoBake(UVertexAnimProfile* InVertexAnimProfile, UObject* InSkeletalMeshComponent, const FString& InAssetSavePath);
+		static UStaticMesh* DoBake(UVertexAnimProfile* InVertexAnimProfile, UObject* InSkeletalMeshComponent, const FString& InAssetSavePath);
+
+	UFUNCTION(BlueprintCallable, Category = "Vertex Animation Tool")
+		static FVertexAnimProfileData GetVertexAnimProfileData(UVertexAnimProfile* InVertexAnimProfile);
 
 public:
 	static float EncodeFloat(const float& T, const float& Bound);

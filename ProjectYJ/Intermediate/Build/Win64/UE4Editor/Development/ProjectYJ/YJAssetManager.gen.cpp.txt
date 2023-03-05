@@ -1,18 +1,17 @@
 E:\Github\ProjectYJ\ProjectYJ\Intermediate\Build\Win64\UE4Editor\Development\ProjectYJ\Definitions.ProjectYJ.h
-D:\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
-D:\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+E:\UnrealEngine-4.27.2-release\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+E:\UnrealEngine-4.27.2-release\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
 E:\Github\ProjectYJ\ProjectYJ\Source\ProjectYJ/System/AssetManager/YJAssetManager.h
-D:\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/AssetManager.h
-D:\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine\AssetManagerTypes.h
-D:\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AssetManagerTypes.generated.h
-D:\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\Misc/AssetRegistryInterface.h
-D:\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine\StreamableManager.h
-D:\Epic Games\UE_4.27\Engine\Source\Runtime\AssetRegistry\Public\AssetRegistryModule.h
-D:\Epic Games\UE_4.27\Engine\Source\Runtime\AssetRegistry\Public\AssetRegistry/AssetRegistryModule.h
-D:\Epic Games\UE_4.27\Engine\Source\Runtime\AssetRegistry\Public\AssetRegistry/IAssetRegistry.h
-D:\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\AssetRegistry/ARFilter.h
-D:\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AssetRegistry\IAssetRegistry.generated.h
-D:\Epic Games\UE_4.27\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatformChunkInstall.h
-D:\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine\ContentEncryptionConfig.h
-D:\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AssetManager.generated.h
+E:\UnrealEngine-4.27.2-release\Engine\Source\Runtime\Engine\Classes\Engine/AssetManager.h
+E:\UnrealEngine-4.27.2-release\Engine\Source\Runtime\Engine\Classes\Engine\AssetManagerTypes.h
+E:\UnrealEngine-4.27.2-release\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AssetManagerTypes.generated.h
+E:\UnrealEngine-4.27.2-release\Engine\Source\Runtime\CoreUObject\Public\Misc/AssetRegistryInterface.h
+E:\UnrealEngine-4.27.2-release\Engine\Source\Runtime\Engine\Classes\Engine\StreamableManager.h
+E:\UnrealEngine-4.27.2-release\Engine\Source\Runtime\AssetRegistry\Public\AssetRegistryModule.h
+E:\UnrealEngine-4.27.2-release\Engine\Source\Runtime\AssetRegistry\Public\AssetRegistry/AssetRegistryModule.h
+E:\UnrealEngine-4.27.2-release\Engine\Source\Runtime\AssetRegistry\Public\AssetRegistry/IAssetRegistry.h
+E:\UnrealEngine-4.27.2-release\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AssetRegistry\IAssetRegistry.generated.h
+E:\UnrealEngine-4.27.2-release\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatformChunkInstall.h
+E:\UnrealEngine-4.27.2-release\Engine\Source\Runtime\Engine\Classes\Engine\ContentEncryptionConfig.h
+E:\UnrealEngine-4.27.2-release\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AssetManager.generated.h
 E:\Github\ProjectYJ\ProjectYJ\Intermediate\Build\Win64\UE4Editor\Inc\ProjectYJ\YJAssetManager.generated.h

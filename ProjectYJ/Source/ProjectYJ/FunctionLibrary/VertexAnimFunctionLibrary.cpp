@@ -9,13 +9,13 @@
 #include "Runtime/Engine/Private/SkeletalRenderCPUSkin.h"
 #include "AssetRegistryModule.h"
 #include "Animation/AnimSingleNodeInstance.h"
-// --------------------------------------------------------------
 #include "RawMesh.h"
 #include "AssetToolsModule.h"
 #include "Rendering/SkeletalMeshModel.h"
 #include "Rendering/SkeletalMeshLODRenderData.h"
-#include "Materials/MaterialInstanceDynamic.h"
+#include "Materials/MaterialInstanceConstant.h"
 
+#include "UnrealEd.h"
 #include "VertexAnimProfile.h"
 
 static void QuatSave(FQuat& Q)
@@ -738,15 +738,18 @@ void UVertexAnimFunctionLibrary::SetDataAtProfile(UVertexAnimProfile* InVertexAn
 	NewData.NumFrames = InNumFrames;
 
 	InVertexAnimProfile->Anims_Vert.Add(NewData);
+
+	UMaterialInstance* MI;
+	MI->ScalarParameterValues;
 }
 
-void UVertexAnimFunctionLibrary::DoBake(UVertexAnimProfile* InVertexAnimProfile, UObject* InSkeletalMeshComponent, const FString& InAssetSavePath)
+UStaticMesh* UVertexAnimFunctionLibrary::DoBake(UVertexAnimProfile* InVertexAnimProfile, UObject* InSkeletalMeshComponent, const FString& InAssetSavePath)
 {
 	if (InVertexAnimProfile == nullptr)
-		return;
+		return nullptr;
 
 	if (InSkeletalMeshComponent == nullptr)
-		return;
+		return nullptr;
 	
 	USkeletalMeshComponent* MeshComponent = Cast<USkeletalMeshComponent>(InSkeletalMeshComponent);
 	UVertexAnimProfile* Profile = InVertexAnimProfile;
@@ -756,7 +759,8 @@ void UVertexAnimFunctionLibrary::DoBake(UVertexAnimProfile* InVertexAnimProfile,
 	bool DoAnimBake = (Profile != NULL) && !bOnlyCreateStaticMesh;
 	bool DoStaticMesh = (Profile != NULL);
 
-	if ((!DoAnimBake) && (!DoStaticMesh)) return;
+	if ((!DoAnimBake) && (!DoStaticMesh)) 
+		return nullptr;
 
 	TArray<int32> UniqueSourceIDs;
 	TArray<TArray<FVector2D>> UVs_VertAnim;
@@ -781,13 +785,13 @@ void UVertexAnimFunctionLibrary::DoBake(UVertexAnimProfile* InVertexAnimProfile,
 		if ((Profile->CalcTotalRequiredHeight_Vert() > Profile->OverrideSize_Vert.Y) ||
 			(Profile->CalcTotalRequiredHeight_Bone() > Profile->OverrideSize_Bone.Y))
 		{
-			return;
+			return nullptr;
 		}
 
 		if ((Profile->OverrideSize_Vert.GetMax() > 4096) ||
 			(Profile->OverrideSize_Bone.GetMax() > 4096))
 		{
-			return;
+			return nullptr;
 		}
 	}
 
@@ -800,10 +804,9 @@ void UVertexAnimFunctionLibrary::DoBake(UVertexAnimProfile* InVertexAnimProfile,
 		}
 		else
 		{
-			FString AssetName = Profile->GetOutermost()->GetName();
-			FString Name = MeshComponent->SkeletalMesh->GetName();
-			const FString PackagePath = InAssetSavePath + TEXT("/") + Name + TEXT("_VAT");
-			PackageName = PackagePath;
+			FString AssetName = TEXT("VA_SM_") + MeshComponent->SkeletalMesh->GetName();
+			const FString PackagePath = InAssetSavePath + TEXT("/");
+			PackageName = PackagePath + AssetName;
 		}
 
 		UStaticMesh* StaticMesh = UVertexAnimFunctionLibrary::ConvertMeshesToStaticMesh({ MeshComponent }, FTransform::Identity, PackageName);
@@ -833,9 +836,9 @@ void UVertexAnimFunctionLibrary::DoBake(UVertexAnimProfile* InVertexAnimProfile,
 		TArray <FVector4> VertPos, VertNormal;
 		GatherAndBakeAllAnimVertData(Profile, MeshComponent, UniqueSourceIDs, VertPos, VertNormal);
 
-		FString AssetName = Profile->GetOutermost()->GetName();
-		const FString SanitizedBasePackageName = InAssetSavePath;
-		const FString PackagePath = FPackageName::GetLongPackagePath(SanitizedBasePackageName) + TEXT("/");
+		const FString PackagePath = InAssetSavePath + TEXT("/");
+		FString AssetName_Normals = TEXT("VA_TEX_") + MeshComponent->SkeletalMesh->GetName() + "_Normals";
+		FString AssetName_Offsets = TEXT("VA_TEX_") + MeshComponent->SkeletalMesh->GetName() + "_Offsets";
 
 		// Vert Textures
 		if (Profile->Anims_Vert.Num())
@@ -843,12 +846,11 @@ void UVertexAnimFunctionLibrary::DoBake(UVertexAnimProfile* InVertexAnimProfile,
 			TArray <FFloat16Color> Data;
 			Data.SetNumZeroed(TextureWidth_Vert * TextureHeight_Vert);
 
-
 			{
 				EncodeData_Vec(VertNormal, 2.f, false, Data); // decided on fixed 2.0 for simplicity
 
 				Profile->NormalsTexture = SetTexture2(MeshComponent->GetWorld(), PackagePath,
-					Profile->GetName() + "_Normals", Profile->NormalsTexture,
+					AssetName_Normals, Profile->NormalsTexture,
 					TextureWidth_Vert, TextureHeight_Vert,
 					Data,
 					Profile->GetMaskedFlags() | RF_Public | RF_Standalone);
@@ -863,12 +865,11 @@ void UVertexAnimFunctionLibrary::DoBake(UVertexAnimProfile* InVertexAnimProfile,
 				Profile->NormalsTexture->UpdateResource();
 			}
 
-
 			{
 				EncodeData_Vec(VertPos, Profile->MaxValueOffset_Vert, true, Data);
 
 				Profile->OffsetsTexture = SetTexture2(MeshComponent->GetWorld(), PackagePath,
-					Profile->GetName() + "_Offsets", Profile->OffsetsTexture,
+					AssetName_Offsets, Profile->OffsetsTexture,
 					TextureWidth_Vert, TextureHeight_Vert,
 					Data,
 					Profile->GetMaskedFlags() | RF_Public | RF_Standalone);
@@ -884,6 +885,28 @@ void UVertexAnimFunctionLibrary::DoBake(UVertexAnimProfile* InVertexAnimProfile,
 			}
 		}
 	}
+
+	// 에셋으로 포커싱
+	TArray<UObject*> objectsToSync;
+	objectsToSync.Add(Profile->StaticMesh);
+	GEditor->SyncBrowserToObjects(objectsToSync);
+
+	return Profile->StaticMesh;
+}
+
+FVertexAnimProfileData UVertexAnimFunctionLibrary::GetVertexAnimProfileData(UVertexAnimProfile* InVertexAnimProfile)
+{
+	FVertexAnimProfileData VATData;
+
+	VATData.NumFrames = InVertexAnimProfile->Anims_Vert[0].NumFrames;
+	VATData.AnimStart_Generated = InVertexAnimProfile->Anims_Vert[0].AnimStart_Generated;
+	VATData.Speed_Generated = InVertexAnimProfile->Anims_Vert[0].Speed_Generated;
+	VATData.RowsPerFrame = InVertexAnimProfile->RowsPerFrame_Vert;
+	VATData.MaxValueOffset = InVertexAnimProfile->MaxValueOffset_Vert;
+	VATData.OffsetsTexture = InVertexAnimProfile->OffsetsTexture;
+	VATData.NormalsTexture = InVertexAnimProfile->NormalsTexture;
+
+	return VATData;
 }
 
 // ===============================================================================================================

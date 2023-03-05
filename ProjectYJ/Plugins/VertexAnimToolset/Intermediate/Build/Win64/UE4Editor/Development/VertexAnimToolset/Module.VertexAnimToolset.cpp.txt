@@ -2,25 +2,25 @@ E:\Github\ProjectYJ\ProjectYJ\Plugins\VertexAnimToolset\Intermediate\Build\Win64
 E:/Github/ProjectYJ/ProjectYJ/Plugins/VertexAnimToolset/Source/VertexAnimToolset/Private/VertexAnimProfile.cpp
 E:\Github\ProjectYJ\ProjectYJ\Plugins\VertexAnimToolset\Source\VertexAnimToolset\Public\VertexAnimProfile.h
 E:\Github\ProjectYJ\ProjectYJ\Plugins\VertexAnimToolset\Intermediate\Build\Win64\UE4Editor\Inc\VertexAnimToolset\VertexAnimProfile.generated.h
-D:\Epic Games\UE_4.27\Engine\Source\Runtime/Engine/Classes/Engine/CanvasRenderTarget2D.h
-D:\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/TextureRenderTarget2D.h
-D:\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/TextureRenderTarget.h
-D:\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\TextureRenderTarget.generated.h
-D:\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\TextureRenderTarget2D.generated.h
-D:\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CanvasRenderTarget2D.generated.h
-D:\Epic Games\UE_4.27\Engine\Source\Runtime/Engine/Classes/Kismet/KismetRenderingLibrary.h
-D:\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\KismetRenderingLibrary.generated.h
-D:\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Public\Rendering/SkeletalMeshModel.h
-D:\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Public\Rendering/SkeletalMeshLODModel.h
-D:\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Public\Rendering/SkeletalMeshLODImporterData.h
-D:\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Animation/MorphTarget.h
-D:\Epic Games\UE_4.27\Engine\Source\Runtime\Core\Public\UObject/EditorObjectVersion.h
-D:\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\MorphTarget.generated.h
+E:\UnrealEngine-4.27.2-release\Engine\Source\Runtime/Engine/Classes/Engine/CanvasRenderTarget2D.h
+E:\UnrealEngine-4.27.2-release\Engine\Source\Runtime\Engine\Classes\Engine/TextureRenderTarget2D.h
+E:\UnrealEngine-4.27.2-release\Engine\Source\Runtime\Engine\Classes\Engine/TextureRenderTarget.h
+E:\UnrealEngine-4.27.2-release\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\TextureRenderTarget.generated.h
+E:\UnrealEngine-4.27.2-release\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\TextureRenderTarget2D.generated.h
+E:\UnrealEngine-4.27.2-release\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CanvasRenderTarget2D.generated.h
+E:\UnrealEngine-4.27.2-release\Engine\Source\Runtime/Engine/Classes/Kismet/KismetRenderingLibrary.h
+E:\UnrealEngine-4.27.2-release\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\KismetRenderingLibrary.generated.h
+E:\UnrealEngine-4.27.2-release\Engine\Source\Runtime\Engine\Public\Rendering/SkeletalMeshModel.h
+E:\UnrealEngine-4.27.2-release\Engine\Source\Runtime\Engine\Public\Rendering/SkeletalMeshLODModel.h
+E:\UnrealEngine-4.27.2-release\Engine\Source\Runtime\Engine\Public\Rendering/SkeletalMeshLODImporterData.h
+E:\UnrealEngine-4.27.2-release\Engine\Source\Runtime\Engine\Classes\Animation/MorphTarget.h
+E:\UnrealEngine-4.27.2-release\Engine\Source\Runtime\Core\Public\UObject/EditorObjectVersion.h
+E:\UnrealEngine-4.27.2-release\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\MorphTarget.generated.h
 E:/Github/ProjectYJ/ProjectYJ/Plugins/VertexAnimToolset/Source/VertexAnimToolset/Private/VertexAnimToolset.cpp
 E:\Github\ProjectYJ\ProjectYJ\Plugins\VertexAnimToolset\Source\VertexAnimToolset\Public\VertexAnimToolset.h
-D:\Epic Games\UE_4.27\Engine\Source\Runtime\Projects\Public\Interfaces/IPluginManager.h
-D:\Epic Games\UE_4.27\Engine\Source\Runtime\Projects\Public\PluginDescriptor.h
-D:\Epic Games\UE_4.27\Engine\Source\Runtime\Projects\Public\ModuleDescriptor.h
-D:\Epic Games\UE_4.27\Engine\Source\Runtime\Projects\Public\CustomBuildSteps.h
-D:\Epic Games\UE_4.27\Engine\Source\Runtime\Projects\Public\LocalizationDescriptor.h
-D:\Epic Games\UE_4.27\Engine\Source\Runtime\Projects\Public\PluginReferenceDescriptor.h
+E:\UnrealEngine-4.27.2-release\Engine\Source\Runtime\Projects\Public\Interfaces/IPluginManager.h
+E:\UnrealEngine-4.27.2-release\Engine\Source\Runtime\Projects\Public\PluginDescriptor.h
+E:\UnrealEngine-4.27.2-release\Engine\Source\Runtime\Projects\Public\ModuleDescriptor.h
+E:\UnrealEngine-4.27.2-release\Engine\Source\Runtime\Projects\Public\CustomBuildSteps.h
+E:\UnrealEngine-4.27.2-release\Engine\Source\Runtime\Projects\Public\LocalizationDescriptor.h
+E:\UnrealEngine-4.27.2-release\Engine\Source\Runtime\Projects\Public\PluginReferenceDescriptor.h

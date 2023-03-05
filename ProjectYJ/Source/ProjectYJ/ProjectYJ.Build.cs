@@ -30,6 +30,7 @@ public class ProjectYJ : ModuleRules
 		PrivateDependencyModuleNames.AddRange(
 			new string[]
 			{
+				"UnrealEd",
 				"RenderCore",
 				// ... add private dependencies that you statically link with here ...	
 			}
